@@ -1,9 +1,8 @@
-// import { IoMenu, IoClose } from "react-icons/io5";
+import { IoMenu, IoClose } from "react-icons/io5";
 import { useState } from "react";
 import logo from "@/assets/Banner/image197.png";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +20,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className={color ? 'sticky  bg-gradient-to-r from-[#17211b] to-[#06111a] border-b border-[#06111a] top-0 z-50 duration-300 shadow-md py-1' : 'pt-0 shadow-sm border-b border-[#06111a] navBg bg-gradient-to-r from-[#17211b] to-[#06111a] duration-300'}>
+    <div className={color ? 'sticky  bg-gradient-to-r from-[#17211b] to-[#06111a] border-b border-[#142c36] top-0 z-50 duration-300 shadow-md py-1' : 'pt-0 shadow-sm border-b border-[#0A1D25] navBg bg-gradient-to-r from-[#17211b] to-[#06111a] duration-300'}>
       <div className="max-w-[1620px] mx-auto xl:px-24 lg:px-16 md:px-10 sm:px-2 px-4">
         <div className="w-full top-0 left-0 z-10">
           <div className={`md:flex justify-between items-center ${color ? 'py-3' : 'py-5'}`}>
@@ -31,9 +30,9 @@ const NavBar = () => {
             </Link>
 
             <div onClick={() => setOpen(!open)} className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden">
-              {/* {
-                open ? <IoClose className="text-[#3e9e4d]" /> : <IoMenu className="text-[#3e9e4d]" />
-              } */}
+              {
+                open ? <IoClose className="text-[#f1f8179d]" /> : <IoMenu className="text-[#f1f8179d]" />
+              }
             </div>
 
             <ul className={`md:flex md:items-center md:py-3 pt-5 pb-7 space-x-5 xl:space-x-8 2xl:space-x-10 space-y-4 md:space-y-0 absolute md:static md:z-auto z-[-1px] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-linear opacity-0 md:opacity-100 rounded-[5px] px-4 ${open ? 'top-[75px] opacity-100 bg-[#173f22] z-10' : 'top-[-490px]'}`}>
