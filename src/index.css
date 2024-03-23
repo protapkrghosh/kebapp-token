@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'RoobertPro';
-    src: url('../utiles/RoobertPRO-Bold.otf') format('otf'),
-      url('../utiles/RoobertPRO-Heavy.otf') format('otf'),
-      url('../utiles/RoobertPRO-Light.otf') format('otf'),
-      url('../utiles/RoobertPRO-Medium.otf') format('otf'),
-      url('../utiles/RoobertPRO-Regular.otf') format('otf'),
-      url('../utiles/RoobertPRO-SemiBold.otf') format('otf'),
-  }
+@font-face {
+  font-family: 'Roobert_Pro';
+  src: url('../utiles/fonts/RoobertPRO-Regular.ttf') format('truetype'),
+    url('../utiles/fonts/RoobertPRO-Bold.ttf') format('truetype'),
+    url('../utiles/fonts/RoobertPRO-Heavy.ttf') format('truetype'),
+    url('../utiles/fonts/RoobertPRO-Light.ttf') format('truetype'),
+    url('../utiles/fonts/RoobertPRO-Medium.ttf') format('truetype'),
+    url('../utiles/fonts/RoobertPRO-SemiBold.ttf') format('truetype');
 }
 
 body {
