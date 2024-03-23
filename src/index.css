@@ -4,11 +4,13 @@
 
 @layer base {
   @font-face {
-    font-family: 'Roobert';
-    src: url('../utiles/RoobertRegular.ttf') format('ttf'),
-      url('../utiles/RoobertBold.ttf') format('ttf'),
-      url('../utiles/RoobertMedium.ttf') format('ttf'),
-      url('../utiles/RoobertSemiBold.ttf') format('ttf'),
+    font-family: 'RoobertPro';
+    src: url('../utiles/RoobertPRO-Bold.otf') format('otf'),
+      url('../utiles/RoobertPRO-Heavy.otf') format('otf'),
+      url('../utiles/RoobertPRO-Light.otf') format('otf'),
+      url('../utiles/RoobertPRO-Medium.otf') format('otf'),
+      url('../utiles/RoobertPRO-Regular.otf') format('otf'),
+      url('../utiles/RoobertPRO-SemiBold.otf') format('otf'),
   }
 }
 
