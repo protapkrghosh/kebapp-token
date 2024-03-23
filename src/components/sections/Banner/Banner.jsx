@@ -5,6 +5,7 @@ import progressImg4 from '@/assets/Banner/Group4.png'
 import pathImgTop from '@/assets/Banner/LayerTop.png'
 import walletImg from '@/assets/Banner/solarwallet.png'
 import ellipse from '@/assets/Banner/Ellipse 2.png'
+import kebabImg from '@/assets/Banner/image197.png'
 import pathImgBottom from '@/assets/Banner/Layer5.png'
 import shapeImg from '@/assets/Banner/Vector308.png'
 import Container from '../Container/Container';
@@ -12,12 +13,13 @@ import { Button } from '@/components/ui/button';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { Input } from '@/components/ui/input'
+import { Slider } from '@/components/ui/slider'
 
 const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[130vh] 2xl:h-[120vh]'>
+      <div className='h-[70vh] md:h-[160vh] 2xl:h-[150vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-auto' />
         </Container>
@@ -42,15 +44,15 @@ const Banner = () => {
             {/* Card content */}
             <div className='md:w-1/2'>
               {/* Progress card */}
-              <div className='max-w-[600px] mx-auto'>
+              <div className='max-w-[528px] mx-auto'>
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] py-14'>
-                  <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] uppercase'>PRESALE ENDS IN</p>
+                  <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#e8ff19] to-[#0ebbff] uppercase'>PRESALE ENDS IN</p>
 
                   <div className='flex justify-center gap-x-8 mt-6'>
-                    <img src={progressImg1} alt="Image" className='2xl:w-[100px]' />
-                    <img src={progressImg2} alt="Image" className='2xl:w-[100px]' />
-                    <img src={progressImg3} alt="Image" className='2xl:w-[100px]' />
-                    <img src={progressImg4} alt="Image" className='2xl:w-[100px]' />
+                    <img src={progressImg1} alt="Image" className='w-[87px]' />
+                    <img src={progressImg2} alt="Image" className='w-[87px]' />
+                    <img src={progressImg3} alt="Image" className='w-[87px]' />
+                    <img src={progressImg4} alt="Image" className='w-[87px]' />
                   </div>
                 </div>
 
@@ -99,7 +101,7 @@ const Banner = () => {
                         <div className='h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-[70px] mt-[6px]' />
                       </div>
                     </div>
-                    
+
                     <div className='flex justify-between mt-6 mb-3'>
                       <p className='text-white font-normal'>Amount in SOL you pay:</p>
                       <div className='flex items-center'>
@@ -111,14 +113,36 @@ const Banner = () => {
                     {/* SOL Input */}
                     <div className='relative'>
                       <div className='flex items-center absolute mt-[4.4px] bg-[#154438] px-5 py-1 ml-2 rounded-[8px]'>
-                        <img src={ellipse} alt="Image" />
-                        <p className='text-white font-normal ml-2'>SOL</p>
+                        <img src={ellipse} alt="Image" className='w-[32px]' />
+                        <p className='text-white font-normal ml-2 uppercase'>SOL</p>
                       </div>
 
                       <div className='p-[1px] bg-gradient-to-l from-[#2d4734] to-[#133e47] rounded-[8px]'>
                         <Input placeholder="0" className="text-white placeholder:text-white text-end border-none bg-gradient-to-l from-[#213426] to-[#0e2f36] rounded-[8px]" />
                       </div>
                     </div>
+
+                    {/* Slider */}
+                    <Slider defaultValue={[50]} max={100} step={5} className="my-7" />
+
+                    {/* Kebab Input */}
+                    <div>
+                      <p className='text-white font-normal mb-2'>Amount in SAT you receive:</p>
+
+                      <div className='relative'>
+                        <div className='flex items-center absolute mt-[4.4px] bg-[#154438] px-5 py-1 ml-2 rounded-[8px]'>
+                          <img src={kebabImg} alt="Image" className='w-[32px]' />
+                          <p className='text-white font-normal ml-2 uppercase'>Kebab</p>
+                        </div>
+
+                        <div className='p-[1px] bg-gradient-to-l from-[#2d4734] to-[#133e47] rounded-[8px]'>
+                          <Input placeholder="0" className="text-white placeholder:text-white text-end border-none bg-gradient-to-l from-[#213426] to-[#0e2f36] rounded-[8px]" />
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Connect Wallet */}
+                    <Button className="w-full bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border border-[#F3F813] text-[18px] rounded-[10px] px-12 py-6 mt-6">Connect Wallet</Button>
                   </div>
                 </div>
               </div>
