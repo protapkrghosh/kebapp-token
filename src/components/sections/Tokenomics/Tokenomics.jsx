@@ -22,7 +22,7 @@ const Tokenomics = () => {
               <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
             </div>
             <div>
-              <Progress value={33} />
+            <Progress value={progress} className="w-[60%]" />
             </div>
           </div>
           {/* token image  */}
