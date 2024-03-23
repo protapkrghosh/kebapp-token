@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roobert Pro';
+  font-family: 'RoobertPro';
   src: local('RoobertPro')
     url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
     url('./fonts/RoobertPRO-Medium.woff2') format('truetype'),
