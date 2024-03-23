@@ -25,7 +25,7 @@ const About = () => {
 
             {/* About Contents */}
             <div className='lg:w-1/2'>
-              <div className="max-w-[1620px] mx-auto 2xl:pl-[50px] xl:pl-24 lg:pl-16 md:pl-10 sm:pl-2 pl-4">
+              <div className="max-w-[1620px] mx-auto 2xl:pl-[50px] xl:pl-10 lg:pl-16 md:pl-10 sm:pl-2 pl-4">
                 <h1 className='text-[#fff] text-[50px] md:text-[57px] lg:text-[44px] xl:text-[57px] 2xl:text-[58px] font-bebasNeue font-bold'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>KEBAB</span> Token</h1>
 
                 <div className=' text-[#F4F4F4] text-[18px] font-inter font-normal space-y-4 mt-2 mb-10 2xl:w-[90%] pr-3 lg:pr-0'>
