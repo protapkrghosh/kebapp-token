@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../Container/Container';
-import { Progress } from "@/components/ui/progress";
+import { Progress } from "@/components/ui/progress"
 
 const Tokenomics = () => {
   return (
@@ -22,7 +22,7 @@ const Tokenomics = () => {
               <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
             </div>
             <div>
-            {/* <Progress value={progress} className="w-[60%]" /> */}
+              <Progress value={33} />
             </div>
           </div>
           {/* token image */}
