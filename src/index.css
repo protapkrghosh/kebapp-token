@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #040813;
+}
+
+/* Banner */
+.topBannerShadow {
+  border-radius: 504.873px;
+  background: #f0f7187a;
+  /* filter: blur(250px); */
+  mix-blend-mode: lighten;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -70,6 +82,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
