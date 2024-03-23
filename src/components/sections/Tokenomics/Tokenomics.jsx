@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../Container/Container';
 import { Progress } from "@/components/ui/progress"
+import tokenomImg from '@/assets/tokenomics/Group 1000003525.png'
 
 
 const Tokenomics = () => {
@@ -14,8 +15,7 @@ const Tokenomics = () => {
         </div>
 
         {/* tokenomics contain  */}
-        <div>
-          {/* token contain  */}
+        <div className='flex'>
           {/* card 1 */}
           <div className='mb-[32px]'>
             <div>
@@ -28,7 +28,7 @@ const Tokenomics = () => {
           </div>
           {/* token image */}
           <div>
-            <img src="" alt="" />
+            <img src={tokenomImg} alt="" />
           </div>
         </div>
       </Container>
