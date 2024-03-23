@@ -58,7 +58,7 @@ const NavBar = () => {
               </li>
 
               <div className="block md:hidden">
-                <Button className="bg-[#02b81c4d] uppercase text-[16px] font-inter font-normal">Buy Now</Button>
+                <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] uppercase text-[16px] font-normal rounded-[10px]">Buy Now</Button>
               </div>
             </ul>
 
