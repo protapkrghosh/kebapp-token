@@ -25,7 +25,7 @@ const Tokenomics = () => {
             <Progress value={progress} className="w-[60%]" />
             </div>
           </div>
-          {/* token image  */}
+          {/* token image */}
           <div></div>
         </div>
       </Container>
