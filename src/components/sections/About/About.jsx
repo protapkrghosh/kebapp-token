@@ -1,5 +1,6 @@
 import aboutImg from '@/assets/About/Polygon 1.png'
 import aboutImgAll from '@/assets/About/Group 1000003534.png'
+import aboutImgAllAll from '@/assets/About/Group 1000003522.png'
 import { Button } from '@/components/ui/button';
 import Container from '../Container/Container';
 
@@ -7,21 +8,20 @@ import Container from '../Container/Container';
 const About = () => {
   return (
     <div>
-      <Container>
-        <div className='relative -pt-20 md:-pt-44 lg:pt-40  mb-28' id='aboutToken'>
-          {/* Top path shadow */}
-          <div className='hidden lg:block'>
-            <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[40%] opacity-[0.06]' />
+      <div className='relative -pt-20 md:-pt-44 lg:pt-40  mb-28' id='aboutToken'>
+        {/* Top path shadow */}
+        <div className='hidden lg:block'>
+          <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[40%] opacity-[0.06]' />
 
-            <div className='pathShadowTop blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[250px] 2xl:w-[250px] h-[150px] xl:h-[250px] 2xl:h-[250px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[44%]' />
-          </div>
-
+          <div className='pathShadowTop blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[250px] 2xl:w-[250px] h-[150px] xl:h-[250px] 2xl:h-[250px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[44%]' />
+        </div>
+        <Container>
           <div className='flex flex-col-reverse lg:flex-row lg:justify-between items-center'>
             {/* pasta Image */}
             <div className='lg:w-1/2 flex justify-end 2xl:justify-center relative mt-24 lg:mt-0 mb-52 md:mb-72 lg:mb-0'>
-              <img src={aboutImgAll} alt="Image" className='w-[60%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] -mb-32 md:-mb-52 lg:mb-0 mr-[85px] md:mr-44 lg:mr-16 xl:mr-24 2xl:mr-0 animate-spin duration-3000' />
+              <img src={aboutImgAllAll} alt="Image" className='w-[60%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] -mb-32 md:-mb-52 lg:mb-0 mr-[85px] md:mr-44 lg:mr-16 xl:mr-24 2xl:mr-80 ' />
 
-              <img src={aboutImg} alt="Image" className='w-[100px] md:w-[175px] lg:w-[135px] xl:w-[165px] 2xl:w-[185px] absolute bottom-[-32px] md:bottom-[-25px] lg:bottom-[140px] xl:bottom-[155px] 2xl:bottom-[190px] right-[157px] md:right-[317px] lg:right-[175px] xl:right-[220px] 2xl:right-[380px]' />
+              {/* <img src='' alt="Image" className='w-[100px] md:w-[175px] lg:w-[135px] xl:w-[165px] 2xl:w-[185px] absolute bottom-[-32px] md:bottom-[-25px] lg:bottom-[140px] xl:bottom-[155px] 2xl:bottom-[190px] right-[157px] md:right-[317px] lg:right-[175px] xl:right-[220px] 2xl:right-[380px]' /> */}
             </div>
 
             {/* About Contents */}
@@ -43,15 +43,15 @@ const About = () => {
 
 
           </div>
+        </Container>
 
-          {/* bottom path shadow */}
-          <div className='hidden lg:block'>
-            <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute lg:bottom-14 xl:bottom-0 left-[32%] opacity-[0.06] 2xl:opacity-[0.05]' />
+        {/* bottom path shadow */}
+        <div className='hidden lg:block'>
+          <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute lg:bottom-14 xl:bottom-0 left-[32%] opacity-[0.06] 2xl:opacity-[0.05]' />
 
-            <div className='pathShadowBottom blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[200px] 2xl:w-[300px] h-[150px] xl:h-[200px] 2xl:h-[300px] absolute bottom-16 xl:bottom-36 2xl:bottom-0 left-[38%] xl:left-[36%] 2xl:left-[34%]' />
-          </div>
+          <div className='pathShadowBottom blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[200px] 2xl:w-[300px] h-[150px] xl:h-[200px] 2xl:h-[300px] absolute bottom-16 xl:bottom-36 2xl:bottom-0 left-[38%] xl:left-[36%] 2xl:left-[34%]' />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };
