@@ -38,7 +38,7 @@ const About = () => {
                 </div>
 
                 <div>
-                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[20px] py-[35px]">Buy Now</Button>
+                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[35px] py-[20px]">Buy Now</Button>
                 </div>
               </div>
             </div>
