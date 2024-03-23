@@ -14,7 +14,16 @@ const Tokenomics = () => {
         {/* tokenomics contain  */}
         <div>
           {/* token contain  */}
-          <div></div>
+          {/* card 1 */}
+          <div className='mb-[32px]'>
+            <div>
+              <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Seed Round:</span></p>
+              <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
+            </div>
+            <div>
+
+            </div>
+          </div>
           {/* token image  */}
           <div></div>
         </div>
