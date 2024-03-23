@@ -23,6 +23,9 @@ module.exports = {
             3000: "30000ms",
             3500: "35000ms",
          },
+         fontFamily: {
+            roobertPro: "RoobertPro",
+         },
          colors: {
             border: "hsl(var(--border))",
             input: "hsl(var(--input))",

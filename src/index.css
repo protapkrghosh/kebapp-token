@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'Roobert';
-    src: url('../utiles/RoobertRegular.ttf') format('ttf'),
-      url('../utiles/RoobertBold.ttf') format('ttf'),
-      url('../utiles/RoobertMedium.ttf') format('ttf'),
-      url('../utiles/RoobertSemiBold.ttf') format('ttf'),
-  }
+@font-face {
+  font-family: 'RoobertPro';
+  src: local('RoobertPro')
+    url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
+    url('./fonts/RoobertPRO-Medium.woff2') format('truetype'),
+    url('./fonts/RoobertPRO-Regular.woff') format('truetype'),
+    url('./fonts/RoobertPRO-Regular.woff2') format('truetype'),
 }
 
 body {
   background-color: #040813;
+  font-family: 'RoobertPro';
 }
 
 /* Banner */
