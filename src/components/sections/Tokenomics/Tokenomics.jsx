@@ -23,7 +23,7 @@ const Tokenomics = () => {
               <p className='xl:max-w-64 text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
             </div>
             <div>
-              <Progress value={33} />
+              <Progress value={33} className="bg-[#F1F715]" />
             </div>
           </div>
           {/* token image */}
