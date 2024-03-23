@@ -37,7 +37,9 @@ const About = () => {
                   <p>The token enables staking opportunities, allowing users to earn rewards by staking their KEBAB tokens in liquidity pools or other yield farming mechanisms. Furthermore......</p>
                 </div>
 
-                <Button className="bg-[#02b81c4d] uppercase text-[16px] font-inter font-normal">Buy Now</Button>
+                <div>
+                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[20px] py-[35px]">Buy Now</Button>
+                </div>
               </div>
             </div>
 
