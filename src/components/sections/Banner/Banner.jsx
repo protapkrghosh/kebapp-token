@@ -14,7 +14,6 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { Input } from '@/components/ui/input'
 import { Slider } from '@/components/ui/slider'
-import { Progress } from "@/components/ui/progress"
 
 const Banner = () => {
   return (
@@ -40,7 +39,6 @@ const Banner = () => {
               <div>
                 <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] font-semibold rounded-[10px] px-12 py-7">Buy Now</Button>
               </div>
-              <Progress value={33} />
 
               {/* Path image */}
               <img src={pathImgBottom} alt="Image" className='absolute left-72' />
@@ -53,24 +51,37 @@ const Banner = () => {
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] pt-4 pb-6'>
                   <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#e8ff19] to-[#0ebbff] uppercase'>PRESALE ENDS IN</p>
 
-                  <div className='flex justify-center gap-x-8 mt-6'>
+                  <div className='flex justify-center gap-x-8 mt-5'>
                     <div className='relative'>
                       <img src={progressImg1} alt="Image" className='w-[87px]' />
-                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>20 <br /> <span className='text-[14px]'>Days</span></p>
+                      <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                        <p className='text-[22px]'>20</p>
+                        <p className='text-[14px]'>Days</p>
+                      </div>
                     </div>
 
                     <div className='relative'>
                       <img src={progressImg2} alt="Image" className='w-[87px]' />
-                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>15 <br /> <span className='text-[14px]'>Hours</span></p>
+                      <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-[25px] leading-5'>
+                        <p className='text-[22px]'>15</p>
+                        <p className='text-[14px]'>Hours</p>
+                      </div>
                     </div>
 
                     <div className='relative'>
                       <img src={progressImg3} alt="Image" className='w-[87px]' />
-                      <p className='text-[#F5F6F7] text-[22px] text-center font-normal absolute top-6 left-7 leading-5'>30 <br /> <span className='text-[14px]'>Min</span></p>
+                      <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                        <p className='text-[22px]'>30</p>
+                        <p className='text-[14px]'>Min</p>
+                      </div>
                     </div>
+
                     <div className='relative'>
                       <img src={progressImg4} alt="Image" className='w-[87px]' />
-                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>20 <br /> <span className='text-[14px]'>Days</span></p>
+                      <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                        <p className='text-[22px]'>45</p>
+                        <p className='text-[14px]'>Sec</p>
+                      </div>
                     </div>
                   </div>
                 </div>
