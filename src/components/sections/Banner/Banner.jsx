@@ -19,19 +19,19 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[160vh] 2xl:h-[150vh]'>
+      <div className='h-[70vh] md:h-[170vh] 2xl:h-[140vh]'>
         <Container>
-          <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-auto' />
+          <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-[500px]' />
         </Container>
         <div className='topBannerShadow xl:w-[400px] 2xl:w-[450px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
         <img src={shapeImg} alt="Image" className='absolute top-0 left-0 w-full' />
         {/* <img src={pathImgBottom} alt="Image" className='opacity-[0.06] absolute top-0 left-0' /> */}
       </div>
 
-      <div className='absolute top-20 md:top-32 lg:top-32 xl:top-40 2xl:top-52 w-full'>
+      <div className='absolute top-20 md:top-32 lg:top-32 xl:top-40 2xl:top-16 w-full'>
         <Container>
           <div className='flex justify-between items-center'>
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 relative'>
               <h1 className='text-[70px] xl:text-[80px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Kebab</span> Heaven</h1>
 
               <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to KEBAB Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
@@ -39,10 +39,13 @@ const Banner = () => {
               <div>
                 <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] font-semibold rounded-[10px] px-12 py-7">Buy Now</Button>
               </div>
+
+              {/* Path image */}
+              <img src={pathImgBottom} alt="Image" className='absolute left-72' />
             </div>
 
             {/* Card content */}
-            <div className='md:w-1/2'>
+            <div className='md:w-1/2 2xl:-mr-24'>
               {/* Progress card */}
               <div className='max-w-[528px] mx-auto'>
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] py-14'>
@@ -142,7 +145,7 @@ const Banner = () => {
                     </div>
 
                     {/* Connect Wallet */}
-                    <Button className="w-full bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border border-[#F3F813] text-[18px] rounded-[10px] px-12 py-6 mt-6">Connect Wallet</Button>
+                    <Button className="w-full bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#135a65] hover:to-[#5e6c1e] border border-[#F3F813] text-[18px] rounded-[10px] px-12 py-6 mt-6">Connect Wallet</Button>
                   </div>
                 </div>
               </div>
