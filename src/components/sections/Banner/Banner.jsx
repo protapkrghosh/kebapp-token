@@ -4,6 +4,7 @@ import progressImg3 from '@/assets/Banner/Group3.png'
 import progressImg4 from '@/assets/Banner/Group4.png'
 import pathImgTop from '@/assets/Banner/LayerTop.png'
 import walletImg from '@/assets/Banner/solarwallet.png'
+import ellipse from '@/assets/Banner/Ellipse 2.png'
 import pathImgBottom from '@/assets/Banner/Layer5.png'
 import shapeImg from '@/assets/Banner/Vector308.png'
 import Container from '../Container/Container';
@@ -16,7 +17,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[120vh] 2xl:h-[120vh]'>
+      <div className='h-[70vh] md:h-[130vh] 2xl:h-[120vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-auto' />
         </Container>
@@ -99,7 +100,7 @@ const Banner = () => {
                       </div>
                     </div>
                     
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between mt-6 mb-3'>
                       <p className='text-white font-normal'>Amount in SOL you pay:</p>
                       <div className='flex items-center'>
                         <img src={walletImg} alt="Image" />
@@ -107,8 +108,16 @@ const Banner = () => {
                       </div>
                     </div>
 
-                    <div>
-                      <Input type="email" className="rotate-180" />
+                    {/* SOL Input */}
+                    <div className='relative'>
+                      <div className='flex items-center absolute mt-[4.4px] bg-[#154438] px-5 py-1 ml-2 rounded-[8px]'>
+                        <img src={ellipse} alt="Image" />
+                        <p className='text-white font-normal ml-2'>SOL</p>
+                      </div>
+
+                      <div className='p-[1px] bg-gradient-to-l from-[#2d4734] to-[#133e47] rounded-[8px]'>
+                        <Input placeholder="0" className="text-white placeholder:text-white text-end border-none bg-gradient-to-l from-[#213426] to-[#0e2f36] rounded-[8px]" />
+                      </div>
                     </div>
                   </div>
                 </div>
