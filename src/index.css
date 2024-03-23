@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Roobert_Pro';
-  src: url('../utiles/fonts/RoobertPRO-Regular.ttf') format('truetype'),
-    url('../utiles/fonts/RoobertPRO-Bold.ttf') format('truetype'),
-    url('../utiles/fonts/RoobertPRO-Heavy.ttf') format('truetype'),
-    url('../utiles/fonts/RoobertPRO-Light.ttf') format('truetype'),
-    url('../utiles/fonts/RoobertPRO-Medium.ttf') format('truetype'),
-    url('../utiles/fonts/RoobertPRO-SemiBold.ttf') format('truetype');
+  font-family: 'Roobert Pro';
+  src: local('RoobertPro')
+    url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
+    url('./fonts/RoobertPRO-Medium.woff2') format('truetype'),
+    url('./fonts/RoobertPRO-Regular.woff') format('truetype'),
+    url('./fonts/RoobertPRO-Regular.woff2') format('truetype'),
 }
 
 body {
   background-color: #040813;
+  font-family: 'RoobertPro';
 }
 
 /* Banner */
