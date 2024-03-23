@@ -14,6 +14,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { Input } from '@/components/ui/input'
 import { Slider } from '@/components/ui/slider'
+import { Progress } from "@/components/ui/progress"
 
 const Banner = () => {
   return (
@@ -39,6 +40,7 @@ const Banner = () => {
               <div>
                 <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] font-semibold rounded-[10px] px-12 py-7">Buy Now</Button>
               </div>
+              <Progress value={33} />
 
               {/* Path image */}
               <img src={pathImgBottom} alt="Image" className='absolute left-72' />
