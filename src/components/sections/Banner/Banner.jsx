@@ -48,14 +48,28 @@ const Banner = () => {
             <div className='md:w-1/2 2xl:-mr-24'>
               {/* Progress card */}
               <div className='max-w-[528px] mx-auto'>
-                <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] py-14'>
+                <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] pt-4 pb-6'>
                   <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#e8ff19] to-[#0ebbff] uppercase'>PRESALE ENDS IN</p>
 
                   <div className='flex justify-center gap-x-8 mt-6'>
-                    <img src={progressImg1} alt="Image" className='w-[87px]' />
-                    <img src={progressImg2} alt="Image" className='w-[87px]' />
-                    <img src={progressImg3} alt="Image" className='w-[87px]' />
-                    <img src={progressImg4} alt="Image" className='w-[87px]' />
+                    <div className='relative'>
+                      <img src={progressImg1} alt="Image" className='w-[87px]' />
+                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>20 <br /> <span className='text-[14px]'>Days</span></p>
+                    </div>
+
+                    <div className='relative'>
+                      <img src={progressImg2} alt="Image" className='w-[87px]' />
+                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>15 <br /> <span className='text-[14px]'>Hours</span></p>
+                    </div>
+
+                    <div className='relative'>
+                      <img src={progressImg3} alt="Image" className='w-[87px]' />
+                      <p className='text-[#F5F6F7] text-[22px] text-center font-normal absolute top-6 left-7 leading-5'>30 <br /> <span className='text-[14px]'>Min</span></p>
+                    </div>
+                    <div className='relative'>
+                      <img src={progressImg4} alt="Image" className='w-[87px]' />
+                      <p className='text-[#F5F6F7] text-[22px] font-normal absolute top-6 left-7 leading-5'>20 <br /> <span className='text-[14px]'>Days</span></p>
+                    </div>
                   </div>
                 </div>
 
