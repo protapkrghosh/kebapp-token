@@ -25,16 +25,14 @@ const About = () => {
           {/* About Contents */}
           <div className='lg:w-1/2'>
             <div className="max-w-[1620px] mx-auto 2xl:pl-[250px] xl:pl-24 lg:pl-16 md:pl-10 sm:pl-2 pl-4">
-              <h1 className='text-[#fff] text-[50px] md:text-[57px] lg:text-[44px] xl:text-[57px] 2xl:text-[58px] font-inter font-bold'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>KEBAB</span> Token</h1>
+              <h1 className='text-[#fff] text-[50px] md:text-[57px] lg:text-[44px] xl:text-[57px] 2xl:text-[58px] font-bebasNeue font-bold'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>KEBAB</span> Token</h1>
 
               <div className=' text-[#F4F4F4] text-[18px] font-inter font-normal space-y-4 mt-2 mb-10 2xl:w-[90%] pr-3 lg:pr-0'>
-                <p>Welcome to $SAT, where community is not just a concept, but the very heartbeat of our token's ecosystem. We believe in the power of collective wisdom and participation, which is why community involvement is at the core of everything we do. From decision-making to shaping the future direction of $SAT, every voice matters.</p>
+                <p>KEBAB Token is a decentralized cryptocurrency operates on the Binance Smart Chain (BSC), renowned for its efficiency and low transaction costs.</p>
 
-                <p>But it's not just about governance – we love giving back to our community. That's why we host weekly raffles and giveaways.</p>
+                <p>As a part of the decentralized finance (DeFi) ecosystem, KEBAB Token offers users the opportunity to participate in yield farming, liquidity provision, other DeFi activities. With its unique features and community-driven approach,</p>
 
-                <p>Our team is diligently working on creating a bridge and swap platform, which will provide seamless interoperability between different blockchain networks, unlocking new possibilities for $SAT holders.</p>
-
-                <p>Exciting developments are on the horizon as well, with staking soon to be released. This not only incentivizes long-term commitment but also strengthens the security and stability of the $SAT ecosystem.</p>
+                <p>The token enables staking opportunities, allowing users to earn rewards by staking their KEBAB tokens in liquidity pools or other yield farming mechanisms. Furthermore......</p>
               </div>
 
               <Button className="bg-[#02b81c4d] uppercase text-[16px] font-inter font-normal">Buy Now</Button>
