@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../Container/Container';
 import { Progress } from "@/components/ui/progress"
 
+
 const Tokenomics = () => {
   return (
     <div>
@@ -26,7 +27,9 @@ const Tokenomics = () => {
             </div>
           </div>
           {/* token image */}
-          <div></div>
+          <div>
+            <img src="" alt="" />
+          </div>
         </div>
       </Container>
     </div>
