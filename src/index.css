@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: 'Roobert Pro';
-  src: local('RoobertPro')
-    url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
+  src: local('RoobertPro') url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
     url('./fonts/RoobertPRO-Medium.woff2') format('truetype'),
     url('./fonts/RoobertPRO-Regular.woff') format('truetype'),
     url('./fonts/RoobertPRO-Regular.woff2') format('truetype'),
