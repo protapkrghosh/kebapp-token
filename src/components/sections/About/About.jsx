@@ -26,9 +26,9 @@ const About = () => {
             {/* About Contents */}
             <div className='lg:w-1/2'>
               <div className="max-w-[1620px] mx-auto 2xl:pl-[50px] xl:pl-20 lg:pl-16 md:pl-10 sm:pl-2 pl-4">
-                <h1 className='text-[#fff] text-[50px] md:text-[57px] lg:text-[44px] xl:text-[57px] 2xl:text-[58px] font-bebasNeue font-bold'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>KEBAB</span> Token</h1>
+                <h1 className='text-[#fff] text-[50px] md:text-[57px] lg:text-[44px] xl:text-[57px] 2xl:text-[58px] font-bold'>About <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>KEBAB</span> Token</h1>
 
-                <div className=' text-[#F4F4F4] text-[18px] font-inter font-normal space-y-4 mt-2 mb-10 2xl:w-[90%] pr-3 lg:pr-0'>
+                <div className=' text-[#F4F4F4] text-[18px] font-normal space-y-4 mt-2 mb-10 2xl:w-[90%] pr-3 lg:pr-0'>
                   <p>KEBAB Token is a decentralized cryptocurrency operates on the Binance Smart Chain (BSC), renowned for its efficiency and low transaction costs.</p>
 
                   <p>As a part of the decentralized finance (DeFi) ecosystem, KEBAB Token offers users the opportunity to participate in yield farming, liquidity provision, other DeFi activities. With its unique features and community-driven approach,</p>
@@ -37,7 +37,7 @@ const About = () => {
                 </div>
 
                 <div>
-                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-2 border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[35px] py-[20px]">Buy Now</Button>
+                  <Button className="text-[#FFF] text-[18px]">BUY NOW</Button>
                 </div>
               </div>
             </div>
