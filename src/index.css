@@ -4,8 +4,7 @@
 
 @font-face {
   font-family: 'RoobertPro';
-  src: local('RoobertPro')
-    url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
+  src: local('RoobertPro') url('./fonts/RoobertPRO-Medium.woff') format('truetype'),
     url('./fonts/RoobertPRO-Medium.woff2') format('truetype'),
     url('./fonts/RoobertPRO-Regular.woff') format('truetype'),
     url('./fonts/RoobertPRO-Regular.woff2') format('truetype'),
@@ -21,6 +20,15 @@ body {
   border-radius: 504.873px;
   background: #f0f7187a;
   /* filter: blur(250px); */
+  mix-blend-mode: lighten;
+}
+
+/* Roadmap */
+.mapShadow {
+  border-radius: 1326px;
+  opacity: 0.6;
+  background: var(--Button-02, linear-gradient(267deg, #f5f914d3 1.61%, #19c4e2c0 98.09%));
+  filter: blur(250px);
   mix-blend-mode: lighten;
 }
 
