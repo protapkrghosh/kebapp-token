@@ -5,7 +5,7 @@ import progressImg4 from '@/assets/Banner/Group4.png'
 import pathImgTop from '@/assets/Banner/LayerTop.png'
 import walletImg from '@/assets/Banner/solarwallet.png'
 import ellipse from '@/assets/Banner/Ellipse 2.png'
-import kebabImg from '@/assets/Banner/image197.png'
+import kebappImg from '@/assets/Banner/image197.png'
 import pathImgBottom from '@/assets/Banner/Layer5.png'
 import shapeImg from '@/assets/Banner/Vector308.png'
 import arrowImg from "@/assets/Banner/arrow.png"
@@ -34,9 +34,9 @@ const Banner = () => {
         <Container>
           <div className='flex justify-between items-center'>
             <div className='md:w-1/2 relative'>
-              <h1 className='text-[70px] xl:text-[80px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Kebab</span> Heaven</h1>
+              <h1 className='text-[70px] xl:text-[80px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
 
-              <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to KEBAB Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
+              <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
 
               <div>
                 <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] border-2 border-[#F3F813] uppercase text-[22px] font-semibold rounded-[10px] px-12 py-7">Buy Now</Button>
@@ -94,7 +94,7 @@ const Banner = () => {
                     <div className='space-y-2'>
                       <div className='flex justify-between items-center'>
                         <p className='text-white'>Token Name:</p>
-                        <p className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold uppercase'>KEBAB</p>
+                        <p className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold uppercase'>kebapp</p>
                       </div>
 
                       <div className='flex justify-between items-center'>
@@ -166,14 +166,14 @@ const Banner = () => {
                       </div>
                     </div>
 
-                    {/* Kebab Input */}
+                    {/* kebapp Input */}
                     <div>
                       <p className='text-white font-normal mb-2'>Amount in SAT you receive:</p>
 
                       <div className='relative'>
                         <div className='flex items-center absolute mt-[4.4px] bg-[#154438] px-5 py-1 ml-2 rounded-[8px]'>
                           <img src={logoImg} alt="Image" className='w-[32px]' />
-                          <p className='text-white font-normal ml-2 uppercase'>Kebab</p>
+                          <p className='text-white font-normal ml-2 uppercase'>kebapp</p>
                         </div>
 
                         <div className='p-[1px] bg-gradient-to-l from-[#2d4734] to-[#133e47] rounded-[8px]'>
