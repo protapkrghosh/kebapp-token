@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <div className='mt-16 mb-32'>
       <Container>
-        <h1 className='text-white text-[58px] text-center font-semibold capitalize'>Frequently Asked <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Questions</span></h1>
+        <h1 className='text-white text-[50px] md:text-[58px] text-center font-semibold capitalize'>Frequently Asked <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Questions</span></h1>
 
         <div className='text-white mt-20'>
           <Accordion type="single" defaultValue="item-1" collapsible className="w-full">
