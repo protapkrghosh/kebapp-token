@@ -58,12 +58,12 @@ const NavBar = () => {
               </li>
 
               <div className="block md:hidden">
-                <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] uppercase text-[16px] font-normal rounded-[10px]">Buy Now</Button>
+                <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] uppercase text-[16px] font-normal rounded-[10px]">Buy Now</Button>
               </div>
             </ul>
 
             <div className="md:block hidden p-[1px] bg-gradient-to-l from-[#f2f817] to-[#1bc5df] rounded-[10px]">
-              <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] uppercase text-[16px] font-normal rounded-[10px]">Buy Now</Button>
+              <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] uppercase text-[16px] font-normal rounded-[10px] duration-300">Buy Now</Button>
             </div>
           </div>
         </div>
