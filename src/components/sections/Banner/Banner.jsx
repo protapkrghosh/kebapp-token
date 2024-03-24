@@ -21,7 +21,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[150vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[130vh]'>
+      <div className='h-[70vh] md:h-[150vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[110vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 xl:w-[500px]' />
         </Container>
