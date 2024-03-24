@@ -36,7 +36,7 @@ const About = () => {
                 </div>
 
                 <div>
-                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-[1.5px] border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[35px] py-[20px]">Buy Now</Button>
+                  <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] border-[1.5px] border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[35px] py-[20px]">Buy Now</Button>
                 </div>
 
               </div>
