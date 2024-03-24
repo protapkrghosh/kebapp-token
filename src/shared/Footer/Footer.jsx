@@ -1,5 +1,5 @@
 import Container from '@/components/sections/Container/Container';
-import logo from '@/assets/Banner/image197.png';
+import logo from '@/assets/Banner/kebappcoin11.png';
 import { Link } from "react-scroll";
 import { PiTelegramLogoThin } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <div className='lg:flex justify-between items-center py-6'>
               <Link to="home" smooth={true} offset={-30} duration={600} className='cursor-pointer'>
-                <img src={logo} alt="Image" className='w-[50px]' />
+                <img src={logo} alt="Image" className='w-auto' />
               </Link>
 
               {/* Menu */}

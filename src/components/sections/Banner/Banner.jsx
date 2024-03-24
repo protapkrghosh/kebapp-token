@@ -9,6 +9,7 @@ import kebabImg from '@/assets/Banner/image197.png'
 import pathImgBottom from '@/assets/Banner/Layer5.png'
 import shapeImg from '@/assets/Banner/Vector308.png'
 import arrowImg from "@/assets/Banner/arrow.png"
+import logoImg from "@/assets/Banner/icon41.png"
 import Container from '../Container/Container';
 import { Button } from '@/components/ui/button';
 import { CircularProgressbar } from 'react-circular-progressbar';
@@ -171,7 +172,7 @@ const Banner = () => {
 
                       <div className='relative'>
                         <div className='flex items-center absolute mt-[4.4px] bg-[#154438] px-5 py-1 ml-2 rounded-[8px]'>
-                          <img src={kebabImg} alt="Image" className='w-[32px]' />
+                          <img src={logoImg} alt="Image" className='w-[32px]' />
                           <p className='text-white font-normal ml-2 uppercase'>Kebab</p>
                         </div>
 
