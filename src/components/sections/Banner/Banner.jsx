@@ -8,6 +8,7 @@ import ellipse from '@/assets/Banner/Ellipse 2.png'
 import kebabImg from '@/assets/Banner/image197.png'
 import pathImgBottom from '@/assets/Banner/Layer5.png'
 import shapeImg from '@/assets/Banner/Vector308.png'
+import arrowImg from "@/assets/Banner/arrow.png"
 import Container from '../Container/Container';
 import { Button } from '@/components/ui/button';
 import { CircularProgressbar } from 'react-circular-progressbar';
@@ -128,7 +129,9 @@ const Banner = () => {
                           <p className='text-white'>Presale sold</p>
                           <p className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2]' >0%</p>
                         </div>
-                        <div className='h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-[70px] mt-[6px]' />
+
+                        <Slider defaultValue={[50]} max={100} step={5} className="my-3 cursor-pointer" />
+                        {/* <div className='h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-[70px] mt-[6px]' /> */}
                       </div>
                     </div>
 
@@ -152,8 +155,15 @@ const Banner = () => {
                       </div>
                     </div>
 
-                    {/* Slider */}
-                    <Slider defaultValue={[50]} max={100} step={5} className="my-7" />
+                    {/* custom range button */}
+                    <div className='relative my-7'>
+                      <div className='h-[3px] bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-[70px] mt-[6px]' />
+
+                      <div>
+                        <button className="bg-gradient-to-l from-[#48aa8d] to-[#48aa8d] rounded-full w-[34px] h-[34px] absolute -top-[16px] left-[47%]"></button>
+                        <img src={arrowImg} alt="Image" className='absolute top-[-7px] left-[49.3%] cursor-pointer'/>
+                      </div>
+                    </div>
 
                     {/* Kebab Input */}
                     <div>
