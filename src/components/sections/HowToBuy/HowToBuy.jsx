@@ -24,7 +24,7 @@ const HowToBuy = () => {
           </div>
           {/* card contain section  */}
           <div className='2xl:w-[50%] bg-[#0A1E25] rounded-b-md'>
-            <p className='text-[18px] text-[#F4F4F4] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
+            <p className='text-[18px] text-[#C7C6C6] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
           </div>
         </div>
       </Container>
