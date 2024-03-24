@@ -18,7 +18,7 @@ const HowToBuy = () => {
         {/* card contain section  */}
         <div className='flex'>
           {/* card icon section  */}
-          <div className='flex 2xl:w-[50%]'>
+          <div className='2xl:w-[50%] flex items-center gap-8'>
             <img src={card1logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
           </div>
