@@ -16,6 +16,39 @@ const HowToBuy = () => {
         </div>
 
         {/* card contain section  */}
+        <div className='flex border-t-[2px] border-[#418077] mb-8'>
+          {/* card icon section  */}
+          <div className='2xl:w-[50%] flex items-center gap-8'>
+            <img src={card1logo} alt="" />
+            <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
+          </div>
+          {/* card contain section  */}
+          <div className='2xl:w-[50%] bg-[#0A1E25] rounded-b-md'>
+            <p className='text-[18px] text-[#C7C6C6] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
+          </div>
+        </div>
+        <div className='flex border-t-[2px] border-[#418077] mb-8'>
+          {/* card icon section  */}
+          <div className='2xl:w-[50%] flex items-center gap-8'>
+            <img src={card1logo} alt="" />
+            <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
+          </div>
+          {/* card contain section  */}
+          <div className='2xl:w-[50%] bg-[#0A1E25] rounded-b-md'>
+            <p className='text-[18px] text-[#C7C6C6] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
+          </div>
+        </div>
+        <div className='flex border-t-[2px] border-[#418077] mb-8'>
+          {/* card icon section  */}
+          <div className='2xl:w-[50%] flex items-center gap-8'>
+            <img src={card1logo} alt="" />
+            <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
+          </div>
+          {/* card contain section  */}
+          <div className='2xl:w-[50%] bg-[#0A1E25] rounded-b-md'>
+            <p className='text-[18px] text-[#C7C6C6] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
+          </div>
+        </div>
         <div className='flex border-t-[2px] border-[#418077]'>
           {/* card icon section  */}
           <div className='2xl:w-[50%] flex items-center gap-8'>
@@ -23,8 +56,8 @@ const HowToBuy = () => {
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
           </div>
           {/* card contain section  */}
-          <div className='2xl:w-[50%]'>
-            <p className='text-[18px] text-[#F4F4F4]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
+          <div className='2xl:w-[50%] bg-[#0A1E25] rounded-b-md'>
+            <p className='text-[18px] text-[#C7C6C6] xl:max-w-[600px] py-5 pl-[40px]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
           </div>
         </div>
       </Container>
