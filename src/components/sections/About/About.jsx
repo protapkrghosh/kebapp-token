@@ -37,7 +37,7 @@ const About = () => {
                 </div>
 
                 <div>
-                  <Button className="text-[#FFF] text-[18px]">BUY NOW</Button>
+                  <Button className="text-[#FFF] text-[18px] leading-[28.8px] font-medium px-[35px] py-5">BUY NOW</Button>
                 </div>
               </div>
             </div>
