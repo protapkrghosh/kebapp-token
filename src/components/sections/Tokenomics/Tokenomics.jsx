@@ -6,7 +6,7 @@ import tokenomImg from '@/assets/tokenomics/Group 1000003525.png'
 
 const Tokenomics = () => {
   return (
-    <div>
+    <div className='pb-20'>
       <Container>
         <div className='mb-[141px]'>
           {/* token title  */}
