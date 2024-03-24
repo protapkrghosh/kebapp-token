@@ -7,12 +7,10 @@ import Container from '../Container/Container';
 const About = () => {
   return (
     <div>
-      <div className='relative -pt-20 md:-pt-44 lg:pt-40  mb-28' id='aboutToken'>
+      <div className='relative -pt-20 md:-pt-44 lg:pt-40  mb-28 overflow-hidden' id='aboutToken'>
         {/* Top path shadow */}
         <div className='hidden lg:block'>
-          <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[40%] opacity-[0.06]' />
-
-          <div className='pathShadowTop blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[250px] 2xl:w-[250px] h-[150px] xl:h-[250px] 2xl:h-[250px] absolute top-16 2xl:top-0 lg:left-[45%] xl:left-[45%] 2xl:left-[44%]' />
+          <div className="w-[1326px] h-[155px] mapShadow absolute tom-0 left-[10%] rotate-180" />
         </div>
         <Container>
           <div className='flex flex-col lg:flex-row lg:justify-between items-center'>

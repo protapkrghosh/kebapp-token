@@ -162,7 +162,7 @@ const Banner = () => {
 
                       <div>
                         <button className="bg-gradient-to-l from-[#48aa8d] to-[#48aa8d] rounded-full w-[34px] h-[34px] absolute -top-[16px] left-[47%]"></button>
-                        <img src={arrowImg} alt="Image" className='absolute top-[-7px] left-[49.3%] cursor-pointer'/>
+                        <img src={arrowImg} alt="Image" className='absolute top-[-7px] left-[49.3%] cursor-pointer' />
                       </div>
                     </div>
 
