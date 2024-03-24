@@ -13,6 +13,7 @@ const About = () => {
           <div className="w-[1326px] h-[155px] mapShadow absolute tom-0 left-[10%] rotate-180" />
         </div>
         <Container>
+
           <div className='flex flex-col lg:flex-row lg:justify-between items-center'>
             {/* pasta Image */}
             <div className='lg:w-1/2 flex justify-end 2xl:justify-center relative mt-24 lg:mt-0 mb-52 md:mb-72 lg:mb-0'>
@@ -37,21 +38,21 @@ const About = () => {
                 <div>
                   <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] border-[1.5px] border-[#F3F813] uppercase text-[22px] rounded-[10px] px-[35px] py-[20px]">Buy Now</Button>
                 </div>
+
               </div>
             </div>
-
-
           </div>
         </Container>
-
-        {/* bottom path shadow */}
-        <div className='hidden lg:block'>
-          <img src='' alt="Image" className='lg:w-[250px] xl:w-[300px] 2xl:w-[400px] absolute lg:bottom-14 xl:bottom-0 left-[32%] opacity-[0.06] 2xl:opacity-[0.05]' />
-
-          <div className='pathShadowBottom blur-[250px] 2xl:blur-[300px] w-[150px] xl:w-[200px] 2xl:w-[300px] h-[150px] xl:h-[200px] 2xl:h-[300px] absolute bottom-16 xl:bottom-36 2xl:bottom-0 left-[38%] xl:left-[36%] 2xl:left-[34%]' />
-        </div>
       </div>
     </div>
+
+
+
+    // Tokonomix section 
+
+
+
+
   );
 };
 
