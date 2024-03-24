@@ -21,7 +21,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[170vh] 2xl:h-[140vh]'>
+      <div className='h-[70vh] md:h-[150vh] xl:h-[150vh] 2xl:h-[130vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-[500px]' />
         </Container>
@@ -30,11 +30,11 @@ const Banner = () => {
         {/* <img src={pathImgBottom} alt="Image" className='opacity-[0.06] absolute top-0 left-0' /> */}
       </div>
 
-      <div className='absolute top-20 md:top-32 lg:top-32 xl:top-40 2xl:top-16 w-full'>
+      <div className='absolute top-20 md:top-32 lg:top-32 xl:top-20 2xl:top-16 w-full'>
         <Container>
           <div className='flex justify-between items-center'>
             <div className='md:w-1/2 relative'>
-              <h1 className='text-[70px] xl:text-[80px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
+              <h1 className='text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
 
               <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
 
@@ -43,11 +43,11 @@ const Banner = () => {
               </div>
 
               {/* Path image */}
-              <img src={pathImgBottom} alt="Image" className='absolute left-72' />
+              <img src={pathImgBottom} alt="Image" className='w-[350px] 2xl:w-auto absolute left-52 2xl:left-72' />
             </div>
 
             {/* Card content */}
-            <div className='md:w-1/2 2xl:-mr-24'>
+            <div className='md:w-1/2 xl:-mr-5 2xl:-mr-24'>
               {/* Progress card */}
               <div className='max-w-[528px] mx-auto'>
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] pt-4 pb-6'>
