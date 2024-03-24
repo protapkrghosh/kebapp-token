@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from '../Container/Container';
 import { Progress } from "@/components/ui/progress"
-import tokenomImg from '@/assets/tokenomics/Group 1000003525.png'
+import tokenomImg from '@/assets/tokenomics/Group 1000003526.png'
 
 
 const Tokenomics = () => {
