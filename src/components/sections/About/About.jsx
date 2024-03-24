@@ -18,7 +18,7 @@ const About = () => {
           <div className='flex flex-col-reverse lg:flex-row lg:justify-between items-center'>
             {/* pasta Image */}
             <div className='lg:w-1/2 flex justify-end 2xl:justify-center relative mt-24 lg:mt-0 mb-52 md:mb-72 lg:mb-0'>
-              <img src={aboutImgAll} alt="Image" className='w-[60%] lg:w-[70%] xl:w-[85%] 2xl:w-[85%] -mb-32 md:-mb-52 lg:mb-0 mr-[85px] md:mr-44 lg:mr-16 xl:mr-20 2xl:mr-18 animate-spin duration-3000' />
+              <img src={aboutImgAll} alt="Image" className='w-[60%] lg:w-[85%] xl:w-[85%] 2xl:w-[85%] -mb-32 md:-mb-52 lg:mb-0 mr-[85px] md:mr-44 lg:mr-16 xl:mr-20 2xl:mr-18 animate-spin duration-3000' />
 
               <img src={aboutImg} alt="Image" className='w-[100px] md:w-[175px] lg:w-[185px] xl:w-[300px] 2xl:w-[375px] absolute bottom-[-32px] md:bottom-[-25px] lg:bottom-[90px] xl:bottom-[65px] 2xl:bottom-[90px] right-[157px] md:right-[317px] lg:right-[175px] xl:right-[175px] 2xl:right-[210px]' />
             </div>
