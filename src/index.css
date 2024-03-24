@@ -15,6 +15,14 @@ body {
   font-family: 'RoobertPro';
 }
 
+/* about  */
+.topAboutShadow {
+  border-radius: 1353.533px;
+  background: var(--Button-02, linear-gradient(267deg, #F4F914 1.61%, #19C5E2 98.09%));
+  filter: blur(250px);
+  mix-blend-mode: lighten;
+}
+
 /* Banner */
 .topBannerShadow {
   border-radius: 504.873px;

@@ -1,5 +1,5 @@
 import Container from '@/components/sections/Container/Container';
-import logo from '@/assets/Banner/image197.png';
+import logo from '@/assets/Banner/kebappcoin11.png';
 import { Link } from "react-scroll";
 import { PiTelegramLogoThin } from "react-icons/pi";
 import { FaXTwitter } from "react-icons/fa6";
@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <div className='lg:flex justify-between items-center py-6'>
               <Link to="home" smooth={true} offset={-30} duration={600} className='cursor-pointer'>
-                <img src={logo} alt="Image" className='w-[50px]' />
+                <img src={logo} alt="Image" className='w-auto' />
               </Link>
 
               {/* Menu */}
@@ -44,13 +44,13 @@ const Footer = () => {
               {/* Action button */}
               <div className='flex items-center'>
                 <a href="" target='_blank' className='text-black mr-4'>
-                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#19C5E2] hover:to-[#F4F914] p-4 rounded-full duration-300'>
+                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#f5f914e5] hover:to-[#19c4e2e1] p-4 rounded-full duration-300'>
                     <PiTelegramLogoThin className='text-[25px]' />
                   </div>
                 </a>
 
                 <a href="" target='_blank' className='text-black'>
-                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#19C5E2] hover:to-[#F4F914] p-4 rounded-full duration-300'>
+                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#f5f914e5] hover:to-[#19c4e2e1] p-4 rounded-full duration-300'>
                     <FaXTwitter className='text-[25px]' />
                   </div>
                 </a>
