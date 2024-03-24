@@ -13,8 +13,8 @@ const Home = () => {
       <Banner />
       <About />
       <Tokenomics />
-      <Roadmap />
       <HowToBuy />
+      <Roadmap />
       <WayToJoin />
       <Faq />
     </>
