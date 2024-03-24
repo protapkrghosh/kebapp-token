@@ -26,7 +26,7 @@ const Tokenomics = () => {
 
               <Progress value={33} className="bg-[#F1F715] z-40 xl:max-w-[364.96px]" />
             </div>
-
+            {/* card 2 */}
             <div className='mb-[32px] flex justify-between'>
               <div>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Private Round:</span></p>
@@ -35,7 +35,7 @@ const Tokenomics = () => {
 
               <Progress value={33} className="bg-[#F1F715] z-40 xl:max-w-[364.96px]" />
             </div>
-
+            {/* card 3 */}
             <div className='mb-[32px] flex justify-between'>
               <div>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Partners:</span></p>
@@ -44,7 +44,7 @@ const Tokenomics = () => {
 
               <Progress value={33} className="bg-[#F1F715] z-40 xl:max-w-[364.96px]" />
             </div>
-
+            {/* card 4 */}
             <div className='mb-[32px] flex justify-between'>
               <div>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Team & Advisors:</span></p>
@@ -56,8 +56,8 @@ const Tokenomics = () => {
           </div>
 
           {/* token image */}
-          <div className='xl:w-1/2'>
-            <img src={tokenomImg} alt="" />
+          <div className='xl:w-1/2 relative'>
+            <img className='absolute 2xl:bottom-[-70px]' src={tokenomImg} alt="" />
           </div>
         </div>
       </Container>
