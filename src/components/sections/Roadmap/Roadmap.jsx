@@ -5,10 +5,10 @@ import { FaCheck } from "react-icons/fa6";
 
 const Roadmap = () => {
   return (
-    <div className="pt-32 pb-52 bg-[#040D1B]">
+    <div className="pt-16 pb-60 bg-[#040D1B] relative overflow-hidden">
       <Container>
         <div>
-          <h1 className="text-white text-[62px] text-center font-normal">Roadmap</h1>
+          <h1 className="text-white text-[62px] text-center font-semibold">Roadmap</h1>
 
           {/* Phase */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 mb-9">
@@ -26,7 +26,7 @@ const Roadmap = () => {
                 <img src={borderImg} alt="Image" className="w-full" />
                 <div className="absolute top-0">
                   <img src={lineBorderImg} alt="Image" className="" />
-                  <div className=" absolute top-[-15px] left-[-12px]">
+                  <div className=" absolute top-[-15px] left-[-13px]">
                     <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
                     <FaCheck className="text-black absolute top-1.5 left-1.5" />
                   </div>
@@ -34,7 +34,7 @@ const Roadmap = () => {
 
                 <div className="absolute top-0 left-96 2xl:left-[475px]">
                   <img src={lineBorderImg} alt="Image" className="" />
-                  <div className=" absolute top-[-15px] left-[-12px]">
+                  <div className=" absolute top-[-15px] left-[-13px]">
                     <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
                     <FaCheck className="text-black absolute top-1.5 left-1.5" />
                   </div>
@@ -42,7 +42,7 @@ const Roadmap = () => {
 
                 <div className="absolute top-0 left-[770px] 2xl:left-[955px]">
                   <img src={lineBorderImg} alt="Image" className="" />
-                  <div className=" absolute top-[-15px] left-[-12px]">
+                  <div className=" absolute top-[-15px] left-[-13px]">
                     <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
                     <FaCheck className="text-black absolute top-1.5 left-1.5" />
                   </div>
@@ -123,6 +123,9 @@ const Roadmap = () => {
           </div>
         </div>
       </Container>
+
+      {/* Shadow */}
+      <div className="w-[1326px] h-[155px] mapShadow absolute bottom-0 left-[10%] rotate-180"/>
     </div>
   );
 };
