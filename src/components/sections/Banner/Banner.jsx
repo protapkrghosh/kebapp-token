@@ -21,16 +21,16 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[150vh] xl:h-[150vh] 2xl:h-[130vh]'>
+      <div className='h-[70vh] md:h-[150vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[130vh]'>
         <Container>
-          <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 w-[500px]' />
+          <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 xl:w-[500px]' />
         </Container>
-        <div className='topBannerShadow xl:w-[400px] 2xl:w-[450px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
+        <div className='topBannerShadow lg:w-[250px] xl:w-[400px] 2xl:w-[450px] lg:h-[250px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
         <img src={shapeImg} alt="Image" className='absolute top-0 left-0 w-full' />
         {/* <img src={pathImgBottom} alt="Image" className='opacity-[0.06] absolute top-0 left-0' /> */}
       </div>
 
-      <div className='absolute top-20 md:top-32 lg:top-32 xl:top-20 2xl:top-16 w-full'>
+      <div className='absolute top-20 md:top-32 lg:top-24 xl:top-20 2xl:top-16 w-full'>
         <Container>
           <div className='flex justify-between items-center'>
             <div className='md:w-1/2 relative'>
@@ -43,7 +43,7 @@ const Banner = () => {
               </div>
 
               {/* Path image */}
-              <img src={pathImgBottom} alt="Image" className='w-[350px] 2xl:w-auto absolute left-52 2xl:left-72' />
+              <img src={pathImgBottom} alt="Image" className='w-[300px] xl:w-[350px] 2xl:w-auto absolute left-32 xl:left-52 2xl:left-72' />
             </div>
 
             {/* Card content */}
