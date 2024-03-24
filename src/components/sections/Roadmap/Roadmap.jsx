@@ -24,7 +24,7 @@ const Roadmap = () => {
             <div className="absolute w-full">
               <div>
                 {/* Large border */}
-                <img src={borderImg} alt="Image" className="w-full" />
+                <img src={borderImg} alt="Image" className="w-full hidden lg:block" />
 
                 <div className="absolute top-0">
                   <img src={lineBorderImg} alt="Image" className="h-[180px] xl:h-auto" />
