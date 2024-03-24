@@ -16,7 +16,7 @@ const HowToBuy = () => {
         </div>
 
         {/* card contain section  */}
-        <div className='flex'>
+        <div className='flex border-t-[2px] border-[#418077]'>
           {/* card icon section  */}
           <div className='2xl:w-[50%] flex items-center gap-8'>
             <img src={card1logo} alt="" />
