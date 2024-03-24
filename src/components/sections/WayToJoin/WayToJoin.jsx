@@ -28,13 +28,13 @@ const WayToJoin = () => {
         <div>
           <h1 className='text-white text-[58px] text-center font-semibold'>Another Way to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Join</span> the Presale</h1>
 
-          <p className='text-[#a7a9ac] text-[18px] text-center font-normal w-[60%] xl:w-[56%] 2xl:max-w-[45%] mx-auto mt-10 mb-24'>Having trouble with the DApp or want a simpler method? Participate in the KEBAB presale by sending your chosen SOL amount directly to the address:</p>
+          <p className='text-[#a7a9ac] text-[18px] text-center font-normal md:w-[90%] lg:w-[80%] xl:w-[56%] 2xl:max-w-[45%] mx-auto mt-10 mb-24'>Having trouble with the DApp or want a simpler method? Participate in the KEBAB presale by sending your chosen SOL amount directly to the address:</p>
 
-          <div className='md:flex justify-between items-center'>
-            <div className='md:w-1/2'>
+          <div className='flex flex-col-reverse lg:flex-row justify-between items-center'>
+            <div className='w-full lg:w-1/2 mt-14 lg:mt-0'>
               <div className='bg-[#08151e] border border-[#418077] rounded-[15px] p-9'>
                 <div className='flex items-center'>
-                  <img src={qrCode} alt="Image" />
+                  <img src={qrCode} alt="Image" className='w-[45%] md:w-auto'/>
 
                   <div className='ml-9'>
                     <p className='text-white text-[25px] font-bold'>Address</p>
@@ -47,8 +47,8 @@ const WayToJoin = () => {
             </div>
 
             {/* Shape */}
-            <div>
-              <img src={shapImg} alt="Image" className='' />
+            <div className='lg:w-1/2'>
+              <img src={shapImg} alt="Image" className='w-[90%] xl:w-[87%] 2xl:w-[85%] mx-auto' />
             </div>
           </div>
         </div>
