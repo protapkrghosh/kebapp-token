@@ -40,7 +40,7 @@ const WayToJoin = () => {
                     <p className='text-white text-[25px] font-bold'>Address</p>
                     <p className='text-[#32C84B] text-[18px] font-normal mt-3 mb-5'>KEBAB.sol</p>
 
-                    <Button onClick={copyLink} className="border border-[#F3F813] bg-gradient-to-l from-[#5e6c1e] to-[#135a65] text-[16px] font-normal rounded-[5px] h-12">Copy Address</Button>
+                    <Button onClick={copyLink} className="border border-[#F3F813] bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] text-[16px] font-normal rounded-[5px] h-12">Copy Address</Button>
                   </div>
                 </div>
               </div>

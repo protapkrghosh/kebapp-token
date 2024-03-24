@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 const Accordion = AccordionPrimitive.Root
 
 const AccordionItem = React.forwardRef(({ className, ...props }, ref) => (
-  <AccordionPrimitive.Item ref={ref} className={cn("border-2 border-[#418077] my-7 rounded-[10px]", className)} {...props} />
+  <AccordionPrimitive.Item ref={ref} className={cn("border-2 border-[#12272d] my-7 rounded-[10px]", className)} {...props} />
 ))
 AccordionItem.displayName = "AccordionItem"
 
@@ -23,7 +23,25 @@ const AccordionTrigger = React.forwardRef(({ className, children, ...props }, re
       )}
       {...props}>
       {children}
-      <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
+      {/* <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200" /> */}
+
+      {/* Minus */}
+      {/* <div className="relative">
+        <div className="w-7 h-7 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full flex justify-center items-center">
+          <div className="w-6 h-6 bg-[#0A1E25] rounded-full " />
+        </div>
+        <div className="w-3 h-[3px] bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-md absolute top-3 left-2" />
+      </div> */}
+
+      {/* Plus */}
+      <div className="relative">
+        <div className="w-7 h-7 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full flex justify-center items-center">
+          <div className="w-6 h-6 bg-[#0A1E25] rounded-full " />
+        </div>
+        <div className="w-3 h-[3px] bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-md absolute top-3 left-2" />
+        <div className="w-3 h-[3px] bg-gradient-to-l from-[#19C5E2] to-[#19C5E2] rounded-md absolute top-3 left-2 rotate-90" />
+      </div>
+
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
 ))
