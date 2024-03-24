@@ -16,15 +16,15 @@ const HowToBuy = () => {
         </div>
 
         {/* card contain section  */}
-        <div>
+        <div className='flex'>
           {/* card icon section  */}
-          <div>
+          <div className='flex 2xl:w-[50%]'>
             <img src={card1logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
           </div>
           {/* card contain section  */}
-          <div>
-
+          <div className='2xl:w-[50%]'>
+            <p className='text-[18px] text-[#F4F4F4]'>Ready to invest in the next big thing? Head to our buy section now and grab your share of the KEBAB coin revolution. Don't miss out on the moon ride!</p>
           </div>
         </div>
       </Container>
