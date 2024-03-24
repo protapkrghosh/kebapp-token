@@ -21,7 +21,7 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[150vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[130vh]'>
+      <div className='h-[70vh] md:h-[150vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[110vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute top-0 -ml-14 xl:w-[500px]' />
         </Container>
@@ -162,7 +162,7 @@ const Banner = () => {
 
                       <div>
                         <button className="bg-gradient-to-l from-[#48aa8d] to-[#48aa8d] rounded-full w-[34px] h-[34px] absolute -top-[16px] left-[47%]"></button>
-                        <img src={arrowImg} alt="Image" className='absolute top-[-7px] left-[49.3%] cursor-pointer'/>
+                        <img src={arrowImg} alt="Image" className='absolute top-[-7px] left-[49.3%] cursor-pointer' />
                       </div>
                     </div>
 
