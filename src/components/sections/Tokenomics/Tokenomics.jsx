@@ -13,7 +13,8 @@ const Tokenomics = () => {
           {/* token title  */}
           <p className='text-[#FFF] text-[58px] font-bold leading-[75.4px] text-center mb-[22px]'>Tokenomics</p>
           <p className='text-[#A7A9AC] text-[18px] leading-[28.4px] text-center mb-20'>Berlin Meme Coin’s tokenomics is a well-balanced structure that ensures sustainability <br /> and growth. Our total token supply is currently divided into various segments</p>
-          <img className='hidden lg:block 2xl:w-auto xl:w-[40%] lg:w-[35%] absolute 2xl:right-0 xl:right-0 lg:right-0 2xl:bottom-10 xl:bottom-10 lg:bottom-14' src={tokenomBgImg} alt="" />
+
+          <img className='hidden lg:block 2xl:w-auto xl:w-[30%] lg:w-[35%] absolute 2xl:right-0 xl:right-0 lg:right-0 2xl:bottom-10 xl:bottom-10 lg:bottom-14' src={tokenomBgImg} alt="" />
         </div>
 
         {/* tokenomics contain  */}
