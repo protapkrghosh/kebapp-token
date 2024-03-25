@@ -7,7 +7,7 @@ import card4logo from '@/assets/howtobuy/icon 41.png'
 
 const HowToBuy = () => {
   return (
-    <div className='mt-[90px]' id='buy'>
+    <div className='mt-[90px] mb-[139px]' id='buy'>
       <Container>
 
         <div>
