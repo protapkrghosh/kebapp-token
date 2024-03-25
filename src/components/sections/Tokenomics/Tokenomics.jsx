@@ -22,7 +22,7 @@ const Tokenomics = () => {
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
               <div className='2xl:w-[30%] xl:w-[35%]'>
                 <p className='text-[24px] xl:mt-[0px] lg:mt-[5px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Seed Round:</span></p>
-                <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
+                <p className='text-[#A7A9AC] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
               </div>
               <Progress value={60} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#F1F715]" />
               <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] xl:bottom-[65px] lg:bottom-[100px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>60%</p>
@@ -31,7 +31,7 @@ const Tokenomics = () => {
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
               <div className='2xl:w-[34%] xl:w-[40%]'>
                 <p className='text-[24px] xl:mt-[0px] lg:mt-[5px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Private Round:</span></p>
-                <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>150,000,000 tokens, supporting strategic investors who believe in the long-term potential of Berlin Coin.</p>
+                <p className='text-[#A7A9AC] text-[14px] leading-[22.4px]'>150,000,000 tokens, supporting strategic investors who believe in the long-term potential of Berlin Coin.</p>
               </div>
               <Progress value={30} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#21C6D9]" />
               <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] xl:bottom-[65px] lg:bottom-[100px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>10%</p>
@@ -40,7 +40,7 @@ const Tokenomics = () => {
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
               <div className='2xl:max-w-[283.206px] xl:max-w-[283.206px]'>
                 <p className='text-[24px] xl:mt-[0px] lg:mt-[5px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Partners:</span></p>
-                <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
+                <p className='text-[#A7A9AC] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
               </div>
               <Progress value={30} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#C060A1]" />
               <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] lg:bottom-[80px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>30%</p>
@@ -49,7 +49,7 @@ const Tokenomics = () => {
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
               <div className='2xl:max-w-[283.206px] xl:max-w-[283.206px]'>
                 <p className='text-[24px] xl:mt-[0px] lg:mt-[5px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Team & Advisors:</span></p>
-                <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>180,000,000 tokens, incentivizing our talented team and experienced advisors.</p>
+                <p className='text-[#A7A9AC] text-[14px] leading-[22.4px]'>180,000,000 tokens, incentivizing our talented team and experienced advisors.</p>
               </div>
               <Progress value={50} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#6D67E4]" />
               <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] lg:bottom-[100px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>50%</p>
