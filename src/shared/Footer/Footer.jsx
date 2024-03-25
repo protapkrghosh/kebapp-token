@@ -44,13 +44,13 @@ const Footer = () => {
               {/* Action button */}
               <div className='flex items-center'>
                 <a href="" target='_blank' className='text-black mr-4'>
-                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#19C5E2] hover:to-[#F4F914] p-4 rounded-full duration-300'>
+                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#f5f914e5] hover:to-[#19c4e2e1] p-4 rounded-full duration-300'>
                     <PiTelegramLogoThin className='text-[25px]' />
                   </div>
                 </a>
 
                 <a href="" target='_blank' className='text-black'>
-                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#19C5E2] hover:to-[#F4F914] p-4 rounded-full duration-300'>
+                  <div className='bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hover:from-[#f5f914e5] hover:to-[#19c4e2e1] p-4 rounded-full duration-300'>
                     <FaXTwitter className='text-[25px]' />
                   </div>
                 </a>
