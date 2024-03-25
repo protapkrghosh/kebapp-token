@@ -24,7 +24,7 @@ const Tokenomics = () => {
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Seed Round:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
               </div>
-              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] 2xl:left-[380px] z-50'>50%</p>
+              <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] 2xl:left-[380px] z-50'>50%</p>
               <Progress value={60} className="z-40 2xl:w-[60%]" clsName="bg-[#F1F715]" />
             </div>
 
@@ -33,7 +33,7 @@ const Tokenomics = () => {
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Private Round:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>150,000,000 tokens, supporting strategic investors who believe in the long-term potential of Berlin Coin.</p>
               </div>
-              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] 2xl:left-[380px] z-50'>50%</p>
+              <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] 2xl:left-[380px] z-50'>50%</p>
               <Progress value={30} className="z-40 2xl:w-[60%]" clsName="bg-[#21C6D9]" />
             </div>
 
