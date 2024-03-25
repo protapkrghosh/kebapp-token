@@ -9,7 +9,7 @@ const Tokenomics = () => {
   return (
     <div className='lg:pb-20' id='tokenomics'>
       <Container>
-        <div className='mb-[141px] relative'>
+        <div className='mb-16 md:mb-[141px] relative'>
           {/* token title  */}
           <p className='text-[#FFF] text-[58px] font-bold leading-[75.4px] text-center mb-[22px]'>Tokenomics</p>
           <p className='text-[#A7A9AC] text-[18px] leading-[28.4px] text-center mb-20 lg:w-[82%] xl:w-[63%] 2xl:w-[51%] mx-auto'>Berlin Meme Coin’s tokenomics is a well-balanced structure that ensures sustainability and growth. Our total token supply is currently divided into various segments</p>
@@ -62,7 +62,7 @@ const Tokenomics = () => {
 
           {/* token image */}
           <div className='xl:w-[40%] lg:w-[50%] relative'>
-            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] w-[85%] mx-auto lg 2xl:scale-125 xl:scale-125 lg:scale-125 ' src={tokenomImg} alt="" />
+            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] md:w-[85%] w-full mx-auto lg 2xl:scale-125 xl:scale-125 lg:scale-125 ' src={tokenomImg} alt="Image" />
           </div>
         </div>
       </Container>
