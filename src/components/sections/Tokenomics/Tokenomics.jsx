@@ -7,7 +7,7 @@ import tokenomBgImg from '@/assets/tokenomics/Layer2.png'
 
 const Tokenomics = () => {
   return (
-    <div className='pb-20' id='tokenomics'>
+    <div className='lg:pb-20' id='tokenomics'>
       <Container>
         <div className='mb-[141px] relative'>
           {/* token title  */}
@@ -18,7 +18,7 @@ const Tokenomics = () => {
         </div>
 
         {/* tokenomics contain  */}
-        <div className='flex'>
+        <div className='lg:flex items-center'>
           {/* card 1 */}
           <div className='xl:w-[60%] lg:w-[50%]'>
 
@@ -62,7 +62,7 @@ const Tokenomics = () => {
 
           {/* token image */}
           <div className='xl:w-[40%] lg:w-[50%] relative'>
-            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] 2xl:scale-125 xl:scale-125 lg:scale-125 absolute 2xl:bottom-4 xl:bottom-16 lg:bottom-28 2xl:-right-11 xl:-right-8 lg:-right-8' src={tokenomImg} alt="" />
+            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] w-[85%] mx-auto lg 2xl:scale-125 xl:scale-125 lg:scale-125 ' src={tokenomImg} alt="" />
           </div>
         </div>
       </Container>
