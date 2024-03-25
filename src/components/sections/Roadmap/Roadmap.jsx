@@ -14,9 +14,9 @@ const Roadmap = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 mb-9">
             <p className='text-[24px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2]">Phase - 1</span></p>
 
-            <p className='text-[24px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hidden lg:block">Phase - 2</span></p>
+            <p className='text-[24px] font-bold hidden lg:block'><span className="bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2]">Phase - 2</span></p>
 
-            <p className='text-[24px] font-bold'><span className="bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] hidden lg:block">Phase - 3</span></p>
+            <p className='text-[24px] font-bold hidden lg:block'><span className="bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2]">Phase - 3</span></p>
           </div>
 
           {/* Custom border */}
