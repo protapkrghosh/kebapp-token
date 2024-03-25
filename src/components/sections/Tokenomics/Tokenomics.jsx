@@ -37,7 +37,7 @@ const Tokenomics = () => {
               <Progress value={30} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#21C6D9]" />
             </div>
 
-            <div className='mb-[32px] flex justify-between 2xl:gap-20 relative'>
+            <div className='mb-[32px] flex justify-between 2xl:gap-[80px] relative'>
               <div className='2xl:max-w-[269.235px]'>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Partners:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
