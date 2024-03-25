@@ -19,7 +19,7 @@ const HowToBuy = () => {
         {/* card contain section  */}
         <div className='lg:flex border-t-[2px] border-[#418077] mb-8'>
           {/* card icon section  */}
-          <div className='lg:w-[50%] my-[5px] flex items-center gap-8'>
+          <div className='lg:w-[50%] my-[18px] flex items-center gap-8'>
             <img src={card1logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Click on Buy Button</span></p>
           </div>
@@ -30,7 +30,7 @@ const HowToBuy = () => {
         </div>
         <div className='lg:flex border-t-[2px] border-[#418077] mb-8'>
           {/* card icon section  */}
-          <div className='lg:w-[50%] my-[5px] flex items-center gap-8'>
+          <div className='lg:w-[50%] my-[18px] flex items-center gap-8'>
             <img src={card2logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Connect your Phantom wallet</span></p>
           </div>
@@ -41,7 +41,7 @@ const HowToBuy = () => {
         </div>
         <div className='lg:flex border-t-[2px] border-[#418077] mb-8'>
           {/* card icon section  */}
-          <div className='lg:w-[50%] my-[5px] flex items-center gap-8'>
+          <div className='lg:w-[50%] my-[18px] flex items-center gap-8'>
             <img src={card3logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Choose Amount to Buy</span></p>
           </div>
@@ -52,7 +52,7 @@ const HowToBuy = () => {
         </div>
         <div className='lg:flex border-t-[2px] border-[#418077]'>
           {/* card icon section  */}
-          <div className='lg:w-[50%] my-[5px] flex items-center gap-8'>
+          <div className='lg:w-[50%] my-[18px] flex items-center gap-8'>
             <img src={card4logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Buy  kebapp token</span></p>
           </div>
