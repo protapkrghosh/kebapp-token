@@ -45,7 +45,7 @@ const HowToBuy = () => {
 
         <div className='lg:flex border-t-[2px] border-[#418077] mb-20 lg:mb-8'>
           {/* card icon section  */}
-          <div className='lg:w-[50%] my-[5px] flex items-center gap-8'>
+          <div className='lg:w-[50%] flex items-center gap-8 my-[5px] md:my-5 lg:my-[5px]'>
             <img src={card3logo} alt="" />
             <p className='text-[28px] font-bold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Choose Amount to Buy</span></p>
           </div>
