@@ -7,7 +7,7 @@ import Container from '../Container/Container';
 const About = () => {
   return (
     <div>
-      <div className='relative -pt-20 md:-pt-44 lg:pt-40  mb-28 overflow-hidden' id='aboutToken'>
+      <div className='relative pb-24 -pt-20 md:-pt-44 lg:pt-40  mb-28 overflow-hidden' id='aboutToken'>
         {/* Top path shadow */}
         <div className='hidden lg:block'>
           <div className="w-[1326px] h-[155px] mapShadow absolute tom-0 left-[10%] rotate-180" />
