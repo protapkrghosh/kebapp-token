@@ -23,7 +23,7 @@ const WayToJoin = () => {
   };
 
   return (
-    <div className='py-16'>
+    <div className='xl:pt-20 pb-16'>
       <Container>
         <div>
           <h1 className='text-white text-[58px] text-center font-semibold'>Another Way to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Join</span> the Presale</h1>
