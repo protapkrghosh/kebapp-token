@@ -17,7 +17,7 @@ const Tokenomics = () => {
         {/* tokenomics contain  */}
         <div className='flex'>
           {/* card 1 */}
-          <div className='xl:w-[60%]'>
+          <div className='xl:w-[60%] lg:w-[50%]'>
 
             <div className='mb-[32px] flex justify-between relative'>
               <div className='2xl:w-[30%] xl:w-[35%]'>
@@ -58,7 +58,7 @@ const Tokenomics = () => {
           </div>
 
           {/* token image */}
-          <div className='xl:w-[40%] relative'>
+          <div className='xl:w-[40%]  lg:w-[50%] relative'>
             <img className='2xl:w-[92%] xl:w-[92%] 2xl:scale-125 xl:scale-125 absolute 2xl:bottom-4 xl:bottom-16 2xl:-right-11 xl:-right-8' src={tokenomImg} alt="" />
           </div>
         </div>
