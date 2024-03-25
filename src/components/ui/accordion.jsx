@@ -31,7 +31,7 @@ const AccordionTrigger = React.forwardRef(({ className, children, ...props }, re
       {/* <MinusIcon /> */}
 
       {/* Plus */}
-      <PlusIcon />
+      {/* <PlusIcon /> */}
 
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>
