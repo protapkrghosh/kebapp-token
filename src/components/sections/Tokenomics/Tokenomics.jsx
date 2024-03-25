@@ -55,7 +55,7 @@ const Tokenomics = () => {
 
           {/* token image */}
           <div className='xl:w-[40%] relative'>
-            <img className='2xl:w-auto absolute 2xl:-bottom-2 2xl:-right-16' src={tokenomImg} alt="" />
+            <img className='2xl:w-[92%] 2xl:scale-125 absolute 2xl:bottom-4 2xl:-right-12' src={tokenomImg} alt="" />
           </div>
         </div>
       </Container>
