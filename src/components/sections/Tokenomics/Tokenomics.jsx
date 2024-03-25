@@ -57,12 +57,11 @@ const Tokenomics = () => {
               <Progress value={50} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#6D67E4]" />
               <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] lg:bottom-[100px] bottom-4 2xl:left-[380px] xl:left-[350px] left-[30px] z-40'>50%</p>
             </div>
-
           </div>
 
           {/* token image */}
           <div className='xl:w-[40%] lg:w-[50%] relative'>
-            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] md:w-[85%] w-full mx-auto lg 2xl:scale-125 xl:scale-125 lg:scale-125 ' src={tokenomImg} alt="Image" />
+            <img className='2xl:w-[92%] xl:w-[92%] lg:w-[92%] md:w-[85%] w-full mx-auto lg 2xl:scale-125 xl:scale-125 lg:scale-125 2xl:-mr-8 2xl:-mt-14' src={tokenomImg} alt="Image" />
           </div>
         </div>
       </Container>
