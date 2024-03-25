@@ -53,7 +53,7 @@ const Banner = () => {
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] pt-4 pb-6'>
                   <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#e8ff19] to-[#0ebbff] uppercase'>PRESALE ENDS IN</p>
 
-                  <div className='flex justify-center gap-x-8 mt-5'>
+                  <div className='flex justify-center gap-x-2 md:gap-x-8 mt-5'>
                     <div className='relative'>
                       <img src={progressImg1} alt="Image" className='w-[87px]' />
                       <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
