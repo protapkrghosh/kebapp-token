@@ -2,16 +2,18 @@ import React from 'react';
 import Container from '../Container/Container';
 import { Progress } from "@/components/ui/progress"
 import tokenomImg from '@/assets/tokenomics/Group 1000003526.png'
+import tokenomBgImg from '@/assets/tokenomics/Layer2.png'
 
 
 const Tokenomics = () => {
   return (
     <div className='pb-20' id='tokenomics'>
       <Container>
-        <div className='mb-[141px]'>
+        <div className='mb-[141px] relative'>
           {/* token title  */}
           <p className='text-[#FFF] text-[58px] font-bold leading-[75.4px] text-center mb-[22px]'>Tokenomics</p>
           <p className='text-[#A7A9AC] text-[18px] leading-[28.4px] text-center mb-20'>Berlin Meme Coin’s tokenomics is a well-balanced structure that ensures sustainability <br /> and growth. Our total token supply is currently divided into various segments</p>
+          <img className='2xl:w-auto absolute 2xl:right-0 2xl:bottom-10' src={tokenomBgImg} alt="" />
         </div>
 
         {/* tokenomics contain  */}
