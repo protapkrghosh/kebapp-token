@@ -47,11 +47,11 @@ const NavBar = () => {
               </li>
 
               <li>
-               <Link to="tokenomics" smooth={true} offset={-30} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df] hover:from-[#f2f817] hover:to-[#1bc5df]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#FFF] to-[#FFF] hover:from-[#f2f817] hover:to-[#1bc5df] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>tokenomics</Link>
+               <Link to="tokenomics" smooth={true} offset={-115} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "tokenomics" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df] hover:from-[#f2f817] hover:to-[#1bc5df]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#FFF] to-[#FFF] hover:from-[#f2f817] hover:to-[#1bc5df] duration-300'}`} onClick={() => setActiveLink("tokenomics")}>tokenomics</Link>
               </li>
 
               <li>
-                <Link to="buy" smooth={true} offset={-30} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "buy" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df] hover:from-[#f2f817] hover:to-[#1bc5df]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#FFF] to-[#FFF] hover:from-[#f2f817] hover:to-[#1bc5df] duration-300'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
+                <Link to="buy" smooth={true} offset={-120} duration={600} className={`text-[18px] font-semibold uppercase cursor-pointer ${activeLink === "buy" ? 'bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df] hover:from-[#f2f817] hover:to-[#1bc5df]' : 'bg-clip-text text-transparent bg-gradient-to-l from-[#FFF] to-[#FFF] hover:from-[#f2f817] hover:to-[#1bc5df] duration-300'}`} onClick={() => setActiveLink("buy")}>How to buy</Link>
               </li>
 
               <li>
