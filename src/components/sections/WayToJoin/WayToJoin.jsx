@@ -26,7 +26,7 @@ const WayToJoin = () => {
     <div className='xl:pt-20 pb-16'>
       <Container>
         <div>
-          <h1 className='text-white text-[58px] text-center font-semibold'>Another Way to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Join</span> the Presale</h1>
+          <h1 className='text-white text-[58px] text-center font-semibold mt-10 xl:mt-0'>Another Way to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-semibold'>Join</span> the Presale</h1>
 
           <p className='text-[#a7a9ac] text-[18px] text-center font-normal md:w-[90%] lg:w-[80%] xl:w-[56%] 2xl:max-w-[45%] mx-auto mt-10 mb-24'>Having trouble with the DApp or want a simpler method? Participate in the KEBAB presale by sending your chosen SOL amount directly to the address:</p>
 
