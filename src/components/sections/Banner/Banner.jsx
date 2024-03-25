@@ -16,8 +16,50 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { Input } from '@/components/ui/input'
 import { Slider } from '@/components/ui/slider'
+import { useEffect, useState } from 'react'
 
 const Banner = () => {
+  const calculateTimeLeft = () => {
+    const difference = +new Date("2024-04-20") - +new Date();
+    let timeLeft = {};
+
+    if (difference > 0) {
+      timeLeft = {
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difference / 1000 / 60) % 60),
+        seconds: Math.floor((difference / 1000) % 60),
+      };
+    }
+
+    return timeLeft;
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  });
+
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+    timerComponents.push(
+      <span key={interval} className="px-[40px] md:px-[49.6px] lg:px-[49.5px] xl:px-[49.6px]">
+        <span className="font-bold text-[22px]">
+          {timeLeft[interval]}
+        </span>{" "}
+      </span>
+    );
+  });
+
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
@@ -53,7 +95,44 @@ const Banner = () => {
                 <div className='bg-[#0A1F24] border-2 border-[#3C7D75] rounded-[15px] backdrop-blur-[18px] pt-4 pb-6'>
                   <p className='text-[30px] text-center font-bold bg-clip-text text-transparent bg-gradient-to-l from-[#e8ff19] to-[#0ebbff] uppercase'>PRESALE ENDS IN</p>
 
-                  <div className='flex justify-center gap-x-2 md:gap-x-8 mt-5'>
+                  {/* Dynamic Timer */}
+                  <div className='relative'>
+                    <div className='text-[#F5F6F7] flex justify-center absolute top-4 -left-[10px] md:left-5 lg:left-[-20px] xl:left-5'>
+                      {timerComponents.length ? timerComponents : <span>Time's up!</span>}
+                    </div>
+
+                    <div className='flex justify-center gap-x-2 md:gap-x-8 mt-5'>
+                      <div className='relative'>
+                        <img src={progressImg1} alt="Image" className='w-[87px]' />
+                        <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                          <p className='text-[14px] mt-5'>Days</p>
+                        </div>
+                      </div>
+
+                      <div className='relative'>
+                        <img src={progressImg2} alt="Image" className='w-[87px]' />
+                        <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-[25px] leading-5'>
+                          <p className='text-[14px] mt-5'>Hours</p>
+                        </div>
+                      </div>
+
+                      <div className='relative'>
+                        <img src={progressImg3} alt="Image" className='w-[87px]' />
+                        <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                          <p className='text-[14px] mt-[21px] md:ml-1'>Min</p>
+                        </div>
+                      </div>
+
+                      <div className='relative'>
+                        <img src={progressImg4} alt="Image" className='w-[87px]' />
+                        <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
+                          <p className='text-[14px] mt-5 md:ml-[5px]'>Sec</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* <div className='flex justify-center gap-x-2 md:gap-x-8 mt-5'>
                     <div className='relative'>
                       <img src={progressImg1} alt="Image" className='w-[87px]' />
                       <div className='text-[#F5F6F7] text-center font-normal absolute top-6 left-7 leading-5'>
@@ -85,7 +164,7 @@ const Banner = () => {
                         <p className='text-[14px]'>Sec</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Content Card */}
