@@ -1,5 +1,5 @@
-import aboutImg from '@/assets/About/Polygon 1.png'
-import aboutImgAll from '@/assets/About/Group 1000003534.png'
+import aboutImg from '@/assets/About/icon41.png'
+import aboutImgAll from '@/assets/About/Group1000003523 (1).png'
 import { Button } from '@/components/ui/button';
 import Container from '../Container/Container';
 
