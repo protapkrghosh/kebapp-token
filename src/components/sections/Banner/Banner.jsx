@@ -21,12 +21,12 @@ const Banner = () => {
   return (
     <div className='relative overflow-hidden' id='home'>
       {/* Shadow and background */}
-      <div className='h-[70vh] md:h-[265vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[110vh]'>
+      <div className='h-[200vh] md:h-[265vh] lg:h-[180vh] xl:h-[150vh] 2xl:h-[110vh]'>
         <Container>
           <img src={pathImgTop} alt="Image" className='absolute -top-7 lg:top-0 -ml-14 w-[250px] lg:w-[500px]' />
         </Container>
         <div className='topBannerShadow w-[250px] xl:w-[400px] 2xl:w-[450px] h-[250px] xl:h-[400px] 2xl:h-[450px] absolute blur-[250px] 2xl:blur-[300px]' />
-        <img src={shapeImg} alt="Image" className='absolute top-0 left-0 w-full' />
+        <img src={shapeImg} alt="Image" className='absolute top-0 left-0 w-full hidden md:block' />
         {/* <img src={pathImgBottom} alt="Image" className='opacity-[0.06] absolute top-0 left-0' /> */}
       </div>
 
@@ -34,7 +34,7 @@ const Banner = () => {
         <Container>
           <div className='lg:flex justify-between items-center'>
             <div className='lg:w-1/2 relative'>
-              <h1 className='text-[80px] lg:text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
+              <h1 className='text-[70px] md:text-[80px] lg:text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
 
               <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
 
