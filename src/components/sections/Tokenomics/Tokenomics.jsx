@@ -11,7 +11,7 @@ const Tokenomics = () => {
         <div className='mb-[141px]'>
           {/* token title  */}
           <p className='text-[#FFF] text-[58px] font-bold leading-[75.4px] text-center mb-[22px]'>Tokenomics</p>
-          <p className='text-[#FFF] text-[18px] leading-[28.4px] text-center mb-20'>Berlin Meme Coin’s tokenomics is a well-balanced structure that ensures sustainability <br /> and growth. Our total token supply is currently divided into various segments</p>
+          <p className='text-[#A7A9AC] text-[18px] leading-[28.4px] text-center mb-20'>Berlin Meme Coin’s tokenomics is a well-balanced structure that ensures sustainability <br /> and growth. Our total token supply is currently divided into various segments</p>
         </div>
 
         {/* tokenomics contain  */}
