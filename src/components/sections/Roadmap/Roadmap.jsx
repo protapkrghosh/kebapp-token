@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const Roadmap = () => {
   return (
-    <div className="pt-16 pb-60 bg-[#040D1B] relative overflow-hidden">
+    <div className="pt-10 lg:pt-16 pb-32 lg:pb-60 bg-[#040D1B] relative overflow-hidden">
       <Container>
         <div>
           <h1 className="text-white text-[62px] text-center font-semibold">Roadmap</h1>
@@ -16,7 +16,7 @@ const Roadmap = () => {
 
             <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold'>Phase - 2</p>
 
-            <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold'>Phase - 3</p>
+            <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold hidden lg:block'>Phase - 3</p>
           </div>
 
           {/* Custom border */}
@@ -35,7 +35,7 @@ const Roadmap = () => {
                     </div>
                   </div>
 
-                  <div className="absolute top-0 left-[300px] xl:left-96 2xl:left-[475px]">
+                  <div className="absolute top-0 left-[250px] md:left-[345px] lg:left-[300px] xl:left-96 2xl:left-[475px]">
                     <img src={lineBorderImg} alt="Image" className="h-[180px] xl:h-auto" />
                     <div className=" absolute top-[-15px] left-[-13px]">
                       <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
@@ -43,7 +43,7 @@ const Roadmap = () => {
                     </div>
                   </div>
 
-                  <div className="absolute top-0 left-[600px] xl:left-[770px] 2xl:left-[955px]">
+                  <div className="absolute top-[320px] lg:top-0 left-0 lg:left-[600px] xl:left-[770px] 2xl:left-[955px]">
                     <img src={lineBorderImg} alt="Image" className="h-[180px] xl:h-auto" />
                     <div className=" absolute top-[-15px] left-[-13px]">
                       <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
@@ -54,7 +54,7 @@ const Roadmap = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 -mt-[200px] lg:-mt-[205px] xl:-mt-[265px] 2xl:-mt-[325px]">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:-mt-[205px] xl:-mt-[265px] 2xl:-mt-[325px]">
               {/* Phase One */}
               <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-7 xl:mt-9">
                 <div className="flex items-center">
@@ -102,25 +102,29 @@ const Roadmap = () => {
               </div>
 
               {/* Phase Three */}
-              <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-7 xl:mt-9">
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">Trending on X</p>
-                </div>
+              <div className="">
+                <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold mt-24 block lg:hidden'>Phase - 3</p>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">CG CMC Listing</p>
-                </div>
+                <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-[68px] lg:mt-7 xl:mt-9">
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">Trending on X</p>
+                  </div>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">NFT Airdrop</p>
-                </div>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">CG CMC Listing</p>
+                  </div>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">100000+ Holders</p>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">NFT Airdrop</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">100000+ Holders</p>
+                  </div>
                 </div>
               </div>
             </div>
