@@ -14,7 +14,7 @@ const Roadmap = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 mb-9">
             <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold'>Phase - 1</p>
 
-            <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold'>Phase - 2</p>
+            <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold hidden lg:block'>Phase - 2</p>
 
             <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold hidden lg:block'>Phase - 3</p>
           </div>
@@ -35,7 +35,7 @@ const Roadmap = () => {
                     </div>
                   </div>
 
-                  <div className="absolute top-0 left-[250px] md:left-[345px] lg:left-[300px] xl:left-96 2xl:left-[475px]">
+                  <div className="absolute top-[320px] md:top-0 left-0 md:left-[345px] lg:left-[300px] xl:left-96 2xl:left-[475px]">
                     <img src={lineBorderImg} alt="Image" className="h-[180px] xl:h-auto" />
                     <div className=" absolute top-[-15px] left-[-13px]">
                       <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
@@ -43,7 +43,7 @@ const Roadmap = () => {
                     </div>
                   </div>
 
-                  <div className="absolute top-[320px] lg:top-0 left-0 lg:left-[600px] xl:left-[770px] 2xl:left-[955px]">
+                  <div className="absolute top-[640px] md:top-[320px] lg:top-0 left-0 lg:left-[600px] xl:left-[770px] 2xl:left-[955px]">
                     <img src={lineBorderImg} alt="Image" className="h-[180px] xl:h-auto" />
                     <div className=" absolute top-[-15px] left-[-13px]">
                       <div className="w-7 h-7 rounded-full bg-gradient-to-l from-[#F4F914] to-[#19C5E2]" />
@@ -79,30 +79,34 @@ const Roadmap = () => {
               </div>
 
               {/* Phase Two */}
-              <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-7 xl:mt-9">
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">Public Presale</p>
-                </div>
+              <div>
+                <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold mt-24 md:-mt-[72px] lg:mt-0 block lg:hidden'>Phase - 2</p>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">Dexscreener and Birdseye Update</p>
-                </div>
+                <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-[68px] lg:mt-7 xl:mt-9">
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">Public Presale</p>
+                  </div>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">$20M+ Daily Volume</p>
-                </div>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">Dexscreener and Birdseye Update</p>
+                  </div>
 
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
-                  <p className="text-white xl:text-[20px] font-normal">10000+ Holders</p>
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">$20M+ Daily Volume</p>
+                  </div>
+
+                  <div className="flex items-center">
+                    <div className="w-3 h-3 bg-gradient-to-l from-[#F4F914] to-[#19C5E2] rounded-full mr-3" />
+                    <p className="text-white xl:text-[20px] font-normal">10000+ Holders</p>
+                  </div>
                 </div>
               </div>
 
               {/* Phase Three */}
-              <div className="">
+              <div>
                 <p className='text-[24px] bg-clip-text text-transparent bg-gradient-to-l from-[#F4F914] to-[#19C5E2] font-bold mt-24 block lg:hidden'>Phase - 3</p>
 
                 <div className="space-y-2 xl:space-y-4 ml-6 xl:ml-9 mt-[68px] lg:mt-7 xl:mt-9">
