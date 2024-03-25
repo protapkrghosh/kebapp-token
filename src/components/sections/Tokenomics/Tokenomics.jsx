@@ -19,23 +19,23 @@ const Tokenomics = () => {
           {/* card 1 */}
           <div className='xl:w-[60%]'>
 
-            <div className='mb-[32px] flex justify-between space-x-14'>
-              <div>
+            <div className='mb-[32px] flex justify-between'>
+              <div className='2xl:w-[30%]'>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Seed Round:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, providing a strong foundation for our project’s early development.</p>
               </div>
-              <Progress value={60} className="z-40" clsName="bg-[#F1F715]" />
+              <Progress value={60} className="z-40 2xl:w-[60%]" clsName="bg-[#F1F715]" />
             </div>
 
-            <div className='mb-[32px] flex justify-between space-x-14'>
-              <div>
+            <div className='mb-[32px] flex justify-between'>
+              <div className='2xl:w-[34%]'>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Private Round:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>150,000,000 tokens, supporting strategic investors who believe in the long-term potential of Berlin Coin.</p>
               </div>
-              <Progress value={30} className="z-40" clsName="bg-[#21C6D9]" />
+              <Progress value={30} className="z-40 2xl:w-[60%]" clsName="bg-[#21C6D9]" />
             </div>
 
-            <div className='mb-[32px] flex justify-between space-x-14'>
+            <div className='mb-[32px] flex justify-between'>
               <div>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Partners:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
@@ -43,7 +43,7 @@ const Tokenomics = () => {
               <Progress value={30} className="z-40" clsName="bg-[#C060A1]" />
             </div>
 
-            <div className='mb-[32px] flex justify-between space-x-14'>
+            <div className='mb-[32px] flex justify-between'>
               <div>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Team & Advisors:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>180,000,000 tokens, incentivizing our talented team and experienced advisors.</p>
