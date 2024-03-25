@@ -36,7 +36,7 @@ const Banner = () => {
             <div className='lg:w-1/2 relative'>
               <h1 className='text-[70px] md:text-[80px] lg:text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider  leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
 
-              <p className='text-[18px] text-white font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
+              <p className='text-[18px] text-[#cdced0] font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
 
               <div>
                 <Button className="bg-gradient-to-l from-[#5e6c1e] to-[#135a65] hover:from-[#f5f914bb] hover:to-[#19c4e2bb] border-2 border-[#F3F813] uppercase text-[22px] font-semibold rounded-[10px] px-12 py-7">Buy Now</Button>
