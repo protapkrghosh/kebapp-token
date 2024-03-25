@@ -34,7 +34,7 @@ const Tokenomics = () => {
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>150,000,000 tokens, supporting strategic investors who believe in the long-term potential of Berlin Coin.</p>
               </div>
               <Progress value={30} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#21C6D9]" />
-              <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] xl:bottom-[65px] 2xl:left-[380px] xl:left-[350px] z-40'>10%</p>
+              <p className='text-[#000] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[65px] xl:bottom-[65px] lg:bottom-[95px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>10%</p>
             </div>
 
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
@@ -43,7 +43,7 @@ const Tokenomics = () => {
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
               </div>
               <Progress value={30} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#C060A1]" />
-              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] 2xl:left-[380px] xl:left-[350px] z-40'>30%</p>
+              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] lg:bottom-[75px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>30%</p>
             </div>
 
             <div className='mb-[32px] lg:flex xl:flex-row lg:flex-col-reverse justify-between relative'>
@@ -52,7 +52,7 @@ const Tokenomics = () => {
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>180,000,000 tokens, incentivizing our talented team and experienced advisors.</p>
               </div>
               <Progress value={50} className="z-40 2xl:w-[60%] xl:w-[55%]" clsName="bg-[#6D67E4]" />
-              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] 2xl:left-[380px] xl:left-[350px] z-40'>50%</p>
+              <p className='text-[#FFF] text-[14.833px] font-semibold leading-[17.8px] absolute 2xl:bottom-[45px] xl:bottom-[45px] lg:bottom-[95px] 2xl:left-[380px] xl:left-[350px] lg:left-[30px] z-40'>50%</p>
             </div>
 
           </div>
