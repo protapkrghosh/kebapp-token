@@ -26,10 +26,10 @@ const Faq = () => {
 
               {
                 accordionOne ?
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <PlusIcon />
                   </div>) :
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <MinusIcon />
                   </div>)
               }
@@ -43,10 +43,10 @@ const Faq = () => {
 
               {
                 accordionTwo ?
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <MinusIcon />
                   </div>) :
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <PlusIcon />
                   </div>)
               }
@@ -60,10 +60,10 @@ const Faq = () => {
 
               {
                 accordionThree ?
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <MinusIcon />
                   </div>) :
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <PlusIcon />
                   </div>)
               }
@@ -77,10 +77,10 @@ const Faq = () => {
 
               {
                 accordionFour ?
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <MinusIcon />
                   </div>) :
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <PlusIcon />
                   </div>)
               }
@@ -94,10 +94,10 @@ const Faq = () => {
 
               {
                 accordionFive ?
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <MinusIcon />
                   </div>) :
-                  (<div className="absolute top-4 right-5 cursor-pointer">
+                  (<div className="absolute top-4 right-2 md:right-5 cursor-pointer">
                     <PlusIcon />
                   </div>)
               }
