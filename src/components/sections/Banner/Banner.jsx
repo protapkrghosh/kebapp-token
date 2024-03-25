@@ -76,7 +76,7 @@ const Banner = () => {
         <Container>
           <div className='lg:flex justify-between items-center'>
             <div className='lg:w-1/2 relative'>
-              <h1 className='sm:text-[42px] md:text-[80px] lg:text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider md:leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
+              <h1 className='text-[42px] md:text-[80px] lg:text-[70px] xl:text-[68px] 2xl:text-[80px] text-white font-bebasNeue font-bold tracking-wider md:leading-[110px] uppercase'>Welcome to <span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>kebapp</span> Heaven</h1>
 
               <p className='text-[18px] text-[#cdced0] font-normal mt-6 pb-12 w-[83%] font-roobertPro'>Welcome to kebapp Heaven, where the aroma of sizzling meats and the melody of spices fill the air, beckoning you to embark on a culinary journey like no other.</p>
 
