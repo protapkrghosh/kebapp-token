@@ -35,20 +35,20 @@ const Tokenomics = () => {
               <Progress value={30} className="z-40 2xl:w-[60%]" clsName="bg-[#21C6D9]" />
             </div>
 
-            <div className='mb-[32px] flex justify-between'>
-              <div>
+            <div className='mb-[32px] flex justify-between 2xl:gap-20'>
+              <div className='2xl:max-w-[269.235px]'>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Partners:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>50,000,000 tokens, facilitating partnerships to expand our ecosystem.</p>
               </div>
-              <Progress value={30} className="z-40" clsName="bg-[#C060A1]" />
+              <Progress value={30} className="z-40 2xl:max-w-[364.96px]'>" clsName="bg-[#C060A1]" />
             </div>
 
             <div className='mb-[32px] flex justify-between'>
-              <div>
+              <div className='2xl:max-w-[283.206px]'>
                 <p className='text-[24px] font-semibold leading-[33.6px]'><span className='bg-clip-text text-transparent bg-gradient-to-l from-[#f2f817] to-[#1bc5df]'>Team & Advisors:</span></p>
                 <p className='text-[#F4F4F4] text-[14px] leading-[22.4px]'>180,000,000 tokens, incentivizing our talented team and experienced advisors.</p>
               </div>
-              <Progress value={50} className="z-40" clsName="bg-[#6D67E4]" />
+              <Progress value={50} className="z-40 2xl:w-[60%]" clsName="bg-[#6D67E4]" />
             </div>
 
           </div>
