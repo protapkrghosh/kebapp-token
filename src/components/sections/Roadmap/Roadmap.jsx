@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa6";
 
 const Roadmap = () => {
   return (
-    <div className="pt-10 lg:pt-16 pb-32 lg:pb-60 bg-[#040D1B] relative overflow-hidden">
+    <div className="pt-10 lg:pt-16 pb-32 lg:pb-60 bg-[#040D1B] relative overflow-hidden" id="roadmap">
       <Container>
         <div>
           <h1 className="text-white text-[62px] text-center font-semibold">Roadmap</h1>
