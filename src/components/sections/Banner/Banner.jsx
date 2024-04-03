@@ -52,7 +52,7 @@ const Banner = () => {
       return;
     }
     timerComponents.push(
-      <span key={interval} className="px-[35px] md:px-[49.6px] lg:px-[49.5px] xl:px-[49.6px] 2xl:px-[49.3px]">
+      <span key={interval} className="px-[35px] md:px-[49.6px] lg:px-[49.5px] xl:px-[51.5px] 2xl:px-[51.1px]">
         <span className="font-bold text-[21px] md:text-[22px]">
           {timeLeft[interval]}
         </span>{" "}
