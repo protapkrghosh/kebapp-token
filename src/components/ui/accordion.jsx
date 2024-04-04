@@ -25,7 +25,7 @@ const AccordionTrigger = React.forwardRef(({ className, children, ...props }, re
       )}
       {...props}>
       {children}
-      {/* <ChevronDown className="h-6 w-6 shrink-0 transition-transform duration-200" /> */}
+      <ChevronDown className="h-10 w-10 shrink-0 transition-transform duration-200 z-20 absolute right-4 text-transparent" />
 
       {/* Minus */}
       {/* <MinusIcon /> */}
